@@ -1,6 +1,7 @@
 import MyProfileGreeting from '../components/MyProfileGreeting/MyProfileGreeting';
 import Socials from '../components/Socials/Socials';
 import AboutMe from '../components/AboutMe/AboutMe';
+import WorkExperience from '../components/WorkExperience/WorkExperience';
 
 export function Index() {
   return (
@@ -12,8 +13,9 @@ export function Index() {
         <div className="container mx-auto flex hidden min-h-[64px] justify-end p-4 md:sticky md:flex">
           <Socials />
         </div>
-        <div className="container mx-auto md:px-12 md:py-6">
+        <div className="container mx-auto p-2 md:space-y-6 md:px-12 md:py-6">
           <AboutMe />
+          <WorkExperience />
         </div>
       </div>
     </div>
