@@ -35,17 +35,13 @@ export function WorkExperience() {
     <div className="space-y-4 p-4 md:space-y-6">
       <h2 className="text-gold text-xl font-bold">Where I've worked</h2>
       <div className="space-y-8">
-        {WORK.map((work, i) => (
+        {WORK.map((work) => (
           <div
             className="flex flex-col space-y-4 md:flex-row md:space-y-0"
             key={work.alt}
           >
             <div className="mx-auto h-[90px] w-[152px] md:mr-10">
-              <CompanyImage
-                src={work.src}
-                alt={work.alt}
-                isCurrent={String(i) === '0'}
-              />
+              <CompanyImage src={work.src} alt={work.alt} />
             </div>
             <div className="space-y-2">
               <div>

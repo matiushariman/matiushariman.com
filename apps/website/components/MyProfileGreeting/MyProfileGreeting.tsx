@@ -6,7 +6,7 @@ import MapPin from '../Icons/MapPin/MapPin';
 export function MyProfileGreeting() {
   return (
     <div className="grid items-center gap-4 md:gap-4">
-      <div className="relative mx-auto mx-auto inline h-[120px] w-[120px] rounded-full bg-white md:h-[200px] md:w-[200px]">
+      <div className="relative mx-auto mx-auto inline h-[120px] w-[120px] rounded-full bg-white dark:bg-[#0f1411] md:h-[200px] md:w-[200px]">
         <Image src="/headshot.png" alt="headshot memoji" fill />
       </div>
       <div className="grid gap-2">
