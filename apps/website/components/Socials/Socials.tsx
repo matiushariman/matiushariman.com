@@ -1,16 +1,18 @@
 import Github from '../Icons/Github/Github';
+import Linkedin from '../Icons/Linkedin/Linkedin';
+import SocialLink from '../SocialLink/SocialLink';
+import { LINKEDIN_PROFILE_URL, GITHUB_PROFILE_URL } from '../../constants/URL';
 
 export function Socials() {
   return (
-    <a
-      href="https://github.com/matiushariman"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-gold flex items-center transition-colors"
-      aria-label="navigate to github"
-    >
-      <Github />
-    </a>
+    <div className="flex items-center space-x-3">
+      <SocialLink href={LINKEDIN_PROFILE_URL} label="LinkedIn">
+        <Linkedin />
+      </SocialLink>
+      <SocialLink href={GITHUB_PROFILE_URL} label="Github">
+        <Github />
+      </SocialLink>
+    </div>
   );
 }
 
