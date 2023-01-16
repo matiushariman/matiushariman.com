@@ -26,7 +26,7 @@ export function Index() {
         <div className="container mx-auto p-2 md:space-y-6 md:px-12 md:py-6">
           <AboutMe />
           <WorkExperience />
-          <div className="flex justify-around py-2 text-gray-500 md:hidden">
+          <div className="flex justify-around pt-4 pb-3 text-gray-500 md:hidden">
             <MadeWithLove />
           </div>
         </div>

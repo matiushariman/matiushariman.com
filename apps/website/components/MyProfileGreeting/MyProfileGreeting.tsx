@@ -16,7 +16,9 @@ export function MyProfileGreeting() {
             Matius
           </span>
         </h1>
-        <p>Frontend Engineer &#x2022; Avid Boston Celtics Fan</p>
+        <p className="text-center">
+          Frontend Engineer &#x2022; Avid Boston Celtics Fan
+        </p>
       </div>
       <div>
         <p className="text-center">
