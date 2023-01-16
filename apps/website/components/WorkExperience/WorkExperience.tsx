@@ -1,3 +1,4 @@
+import { GOJEK_URL, BAMBU_URL } from '../../constants/URL';
 import CompanyImage from '../CompanyImage/CompanyImage';
 
 const WORK = [
@@ -7,6 +8,7 @@ const WORK = [
     title: 'Senior Frontend Engineer',
     startingDate: 'Aug 2022',
     endDate: 'Nov 2022',
+    companyUrl: GOJEK_URL,
     responsibilities: [
       'Worked on a singleSPA based micro-frontend application as part of a 3-man frontend development team that achieved 100% burndown chart in consecutive sprints',
       'Improved application test coverage to 90%, the best mark among Moka Backoffice micro frontend applications.',
@@ -20,6 +22,7 @@ const WORK = [
     title: 'Frontend Engineer',
     startingDate: 'Dec 2016',
     endDate: 'July 2022',
+    companyUrl: BAMBU_URL,
     responsibilities: [
       'Managed a team of 3 front-end engineers to develop the world’s first robo advisory SaaS platform (BAMBU GO 2.0) with ReactJS v16.x.x and Redux, the platform won “Best of Show” award at the 2021 FinovateFall event held in NYC.',
       'Introduced integration test using @testing-library/react and MSW and E2E test using cypress to encourage developers to write more “meaningful” tests. Code coverage of 70% or more is successfully maintained while reducing the number of meaningless tests by more than 50% at the same time.',
@@ -40,13 +43,15 @@ export function WorkExperience() {
             className="flex flex-col space-y-4 md:flex-row md:space-y-0"
             key={work.alt}
           >
-            <div className="mx-auto h-[90px] w-[152px] md:mr-10">
-              <CompanyImage src={work.src} alt={work.alt} />
+            <div className="mx-auto md:mr-10">
+              <a href={work.companyUrl} target="_blank" rel="noreferrer">
+                <CompanyImage src={work.src} alt={work.alt} />
+              </a>
             </div>
             <div className="space-y-2">
               <div>
                 <p className="text-sm font-bold">{work.title}</p>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-gray-500 dark:text-gray-400">
                   {work.startingDate} - {work.endDate}
                 </p>
               </div>
