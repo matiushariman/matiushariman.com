@@ -19,7 +19,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.36.1
   autoprefixer: 10.4.13
   babel-jest: 28.1.1
-  clsx: 1.2.1
+  classcat: 5.0.4
   eslint: ~8.15.0
   eslint-config-next: 13.1.1
   eslint-config-prettier: 8.1.0
@@ -44,7 +44,7 @@ specifiers:
   typescript: ~4.8.2
 
 dependencies:
-  clsx: 1.2.1
+  classcat: 5.0.4
   next: 13.1.1_pjwopsidmaokadturxaafygjp4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -4242,6 +4242,10 @@ packages:
     resolution: {integrity: sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==}
     dev: true
 
+  /classcat/5.0.4:
+    resolution: {integrity: sha512-sbpkOw6z413p+HDGcBENe498WM9woqWHiJxCq7nvmxe9WmrUmqfAcxpIwAiMtM5Q3AhYkzXcNQHqsWq0mND51g==}
+    dev: false
+
   /cli-cursor/3.1.0:
     resolution: {integrity: sha512-I/zHAwsKf9FqGoXM4WWRACob9+SNukZTd94DWF57E4toouRulbCxcUh6RKUEOQlYTHJnzkPMySvPNaaSLNfLZw==}
     engines: {node: '>=8'}
@@ -4282,11 +4286,6 @@ packages:
       kind-of: 6.0.3
       shallow-clone: 3.0.1
     dev: true
-
-  /clsx/1.2.1:
-    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
-    engines: {node: '>=6'}
-    dev: false
 
   /co/4.6.0:
     resolution: {integrity: sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==}

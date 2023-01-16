@@ -1,6 +1,6 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import clsx from 'clsx';
+import cc from 'classcat';
 import './styles.css';
 
 import ThemeProvider, {
@@ -16,7 +16,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <ThemeProvider>
         <ThemeContext.Consumer>
           {({ mode }) => (
-            <main className={clsx('app', mode === 'dark' && 'dark')}>
+            <main className={cc(['app', { dark: mode === 'dark' }])}>
               <Component {...pageProps} />
             </main>
           )}

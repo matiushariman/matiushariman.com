@@ -1,4 +1,4 @@
-import clsx from 'clsx';
+import cc from 'classcat';
 import type { SVGProps } from 'react';
 
 export interface HeartProps extends SVGProps<SVGSVGElement> {}
@@ -8,7 +8,7 @@ export function Heart({ className, ...rest }: HeartProps) {
     <svg
       {...rest}
       xmlns="http://www.w3.org/2000/svg"
-      className={clsx('icon icon-tabler icon-tabler-heart', className)}
+      className={cc(['icon icon-tabler icon-tabler-heart', className])}
       width="24"
       height="24"
       viewBox="0 0 24 24"

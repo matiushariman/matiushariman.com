@@ -1,4 +1,4 @@
-import clsx from 'clsx';
+import cc from 'classcat';
 import type { SVGProps } from 'react';
 
 export interface MapPinProps extends SVGProps<SVGSVGElement> {}
@@ -8,7 +8,7 @@ export function MapPin({ className, ...rest }: MapPinProps) {
     <svg
       {...rest}
       xmlns="http://www.w3.org/2000/svg"
-      className={clsx('icon icon-tabler icon-tabler-map-pin', className)}
+      className={cc(['icon icon-tabler icon-tabler-map-pin', className])}
       width="24"
       height="24"
       viewBox="0 0 24 24"
