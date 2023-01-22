@@ -3,7 +3,9 @@ import { GOJEK_URL, BAMBU_URL, LAYOFF_NEWS_URL } from '../../constants/URL';
 export function AboutMe() {
   return (
     <div className="space-y-3 p-4">
-      <h2 className="text-gold text-xl font-bold">About Me</h2>
+      <h2 className="text-gold-dark dark:text-gold text-xl font-bold">
+        About Me
+      </h2>
       <div className="space-y-2">
         <p className="text-sm md:text-justify">
           I started my web development journey in 2016 with{' '}

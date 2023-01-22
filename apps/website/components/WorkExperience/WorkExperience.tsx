@@ -36,7 +36,9 @@ const WORK = [
 export function WorkExperience() {
   return (
     <div className="space-y-4 p-4 md:space-y-6">
-      <h2 className="text-gold text-xl font-bold">Where I've worked</h2>
+      <h2 className="text-gold-dark dark:text-gold text-xl font-bold">
+        Where I've worked
+      </h2>
       <div className="space-y-8">
         {WORK.map((work) => (
           <div

@@ -18,6 +18,7 @@ module.exports = {
         primary: '#007a33',
         'primary-dark': '#2E3D34',
         gold: '#bb9753',
+        'gold-dark': '#8f7138',
       },
     },
   },
