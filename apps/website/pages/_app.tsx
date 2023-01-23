@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import cc from 'classcat';
+import { Analytics } from '@vercel/analytics/react';
 import './styles.css';
 
 import ThemeProvider, {
@@ -18,6 +19,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
           {({ mode }) => (
             <main className={cc(['app', { dark: mode === 'dark' }])}>
               <Component {...pageProps} />
+              <Analytics />
             </main>
           )}
         </ThemeContext.Consumer>
