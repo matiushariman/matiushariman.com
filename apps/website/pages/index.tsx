@@ -17,7 +17,7 @@ export function Index() {
         </div>
       </div>
       <div className="overflow-y-auto dark:bg-[#0f1411] dark:text-white md:pl-[700px]">
-        <div className="container mx-auto flex hidden min-h-[64px] items-center justify-end space-x-4 divide-x p-4 md:sticky md:flex">
+        <div className="flex hidden min-h-[64px] items-center justify-end space-x-4 divide-x p-4 md:sticky md:flex">
           <Socials />
           <div className="text-primary flex items-center pl-4">
             <ThemeSwitch />
