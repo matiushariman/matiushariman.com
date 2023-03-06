@@ -6,7 +6,7 @@ import ThemeSwitch from '../components/ThemeSwitch/ThemeSwitch';
 import MadeWithLove from '../components/MadeWithLove/MadeWithLove';
 export function Index() {
   return (
-    <div>
+    <>
       <div className="from-primary to-primary-dark border-gold relative flex flex-col border-b-8 bg-gradient-to-br p-6 text-white md:fixed md:h-screen md:w-[700px] md:flex-row md:items-center md:justify-around md:border-b-0 md:border-r-8">
         <div className="text-gold pb-2 text-right md:hidden">
           <ThemeSwitch />
@@ -16,7 +16,7 @@ export function Index() {
           <MadeWithLove />
         </div>
       </div>
-      <div className="overflow-y-auto dark:bg-[#0f1411] dark:text-white md:pl-[700px]">
+      <div className="overflow-y-auto dark:bg-[#0f1411] dark:text-white md:pl-[700px] h-screen">
         <div className="flex hidden min-h-[64px] items-center justify-end space-x-4 divide-x p-4 md:sticky md:flex">
           <Socials />
           <div className="text-primary flex items-center pl-4">
@@ -31,7 +31,7 @@ export function Index() {
           <MadeWithLove />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
