@@ -17,7 +17,7 @@ export function MyProfileGreeting() {
           </span>
         </h1>
         <p className="text-center">
-          Frontend Engineer &#x2022; Avid Boston Celtics Fan
+          Senior Frontend Engineer &#x2022; Avid Boston Celtics Fan
         </p>
       </div>
       <div>
