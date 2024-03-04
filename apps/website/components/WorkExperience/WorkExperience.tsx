@@ -1,7 +1,34 @@
-import { GOJEK_URL, BAMBU_URL } from '../../constants/URL';
+import { GOJEK_URL, BAMBU_URL, YOUTRIP_URL } from '../../constants/URL';
 import CompanyImage from '../CompanyImage/CompanyImage';
 
 const WORK = [
+  {
+    src: '/youtrip.png',
+    alt: 'youtrip logo',
+    title: 'Senior Software Engineer, Web',
+    startingDate: 'Oct 2023',
+    endDate: 'Present',
+    companyUrl: YOUTRIP_URL,
+    responsibilities: [
+      'Migrated legacy YouBiz web codebase to Typescript to improve DX, maintainability, and long term scalability.',
+      'Established testing strategy (unit & integration) and pull-request workflow for frontend web applications across YouTrip & YouBiz.',
+      'Led the implementation of a continuous refactoring process, reducing technical debts by upgrading outdated dependencies and removing deprecated code, resulting in a higher maintainability and security vulnerability rating.',
+    ],
+  },
+  {
+    src: '/bambu.png',
+    alt: 'bambu logo',
+    title: 'Lead Software Engineer (Frontend)',
+    startingDate: 'Jan 2023',
+    endDate: 'Sep 2023',
+    companyUrl: BAMBU_URL,
+    responsibilities: [
+      'Led the adoption of Component-driven Development with Storybook & Chromatic for developing BAMBU’s in-house design system and accessible next-gen frontend experience.',
+      'Established best practices in pursuit of engineering excellence: trunk-based development with feature flags, CODEOWNERS, Architecture Decision Record (ADR).',
+      'Liaised with designers, product owners, and C-suite stakeholders to define requirements and build a consistent user experience across the applications.',
+      'Conducted weekly engineering grooming sessions to review and plan engineering efforts required to deliver the product or feature.',
+    ],
+  },
   {
     src: '/gojek.png',
     alt: 'gojek logo',
@@ -37,15 +64,15 @@ export function WorkExperience() {
   return (
     <div className="space-y-4 p-4 md:space-y-6">
       <h2 className="text-gold-dark dark:text-gold text-xl font-bold">
-        Where I've worked
+        Where I&lsquo;ve worked
       </h2>
       <div className="space-y-8">
-        {WORK.map((work) => (
+        {WORK.map((work, i) => (
           <div
             className="flex flex-col space-y-4 md:flex-row md:space-y-0"
-            key={work.alt}
+            key={i}
           >
-            <div className="mx-auto md:mr-10">
+            <div className="mx-auto md:mr-10 md:ml-0">
               <a href={work.companyUrl} target="_blank" rel="noreferrer">
                 <CompanyImage src={work.src} alt={work.alt} />
               </a>
