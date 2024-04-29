@@ -9,6 +9,7 @@ const WORK = [
     startingDate: 'Oct 2023',
     endDate: 'Present',
     companyUrl: YOUTRIP_URL,
+    companyName: 'YouTrip',
     responsibilities: [
       'Migrated legacy YouBiz web codebase to Typescript to improve DX, maintainability, and long term scalability.',
       'Established testing strategy (unit & integration) and pull-request workflow for frontend web applications across YouTrip & YouBiz.',
@@ -22,6 +23,7 @@ const WORK = [
     startingDate: 'Jan 2023',
     endDate: 'Sep 2023',
     companyUrl: BAMBU_URL,
+    companyName: 'BAMBU (closed in 2023)',
     responsibilities: [
       'Led the adoption of Component-driven Development with Storybook & Chromatic for developing BAMBU’s in-house design system and accessible next-gen frontend experience.',
       'Established best practices in pursuit of engineering excellence: trunk-based development with feature flags, CODEOWNERS, Architecture Decision Record (ADR).',
@@ -32,10 +34,11 @@ const WORK = [
   {
     src: '/gojek.png',
     alt: 'gojek logo',
-    title: 'Senior Frontend Engineer',
+    title: 'Senior Frontend Engineer, Commerce Enablement',
     startingDate: 'Aug 2022',
     endDate: 'Nov 2022',
     companyUrl: GOJEK_URL,
+    companyName: 'Gojek',
     responsibilities: [
       'Worked on a singleSPA based micro-frontend application as part of a 3-man frontend development team that achieved 100% burndown chart in consecutive sprints',
       'Improved application test coverage to 90%, the best mark among Moka Backoffice micro frontend applications.',
@@ -50,6 +53,7 @@ const WORK = [
     startingDate: 'Dec 2016',
     endDate: 'July 2022',
     companyUrl: BAMBU_URL,
+    companyName: 'BAMBU (closed in 2023)',
     responsibilities: [
       'Managed a team of 3 front-end engineers to develop the world’s first robo advisory SaaS platform (BAMBU GO 2.0) with ReactJS v16.x.x and Redux, the platform won “Best of Show” award at the 2021 FinovateFall event held in NYC.',
       'Introduced integration test using @testing-library/react and MSW and E2E test using cypress to encourage developers to write more “meaningful” tests. Code coverage of 70% or more is successfully maintained while reducing the number of meaningless tests by more than 50% at the same time.',
@@ -79,7 +83,7 @@ export function WorkExperience() {
             </div>
             <div className="space-y-2">
               <div>
-                <p className="text-sm font-bold">{work.title}</p>
+                <p className="text-sm font-bold">{`${work.companyName} - ${work.title}`}</p>
                 <p className="text-xs text-gray-500 dark:text-gray-400">
                   {work.startingDate} - {work.endDate}
                 </p>
