@@ -1,0 +1,50 @@
+{
+  "name": "website-v2",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/website-v2",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/website-v2"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "apps/website-v2"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "website-v2:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "website-v2:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "website-v2:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nx/next:export",
+      "options": {
+        "buildTarget": "website-v2:build:production"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
