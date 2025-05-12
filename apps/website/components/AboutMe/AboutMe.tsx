@@ -20,28 +20,26 @@ export function AboutMe() {
             The Humble Beginning
           </h3>
           <p className="text-sm md:text-justify">
-            My journey in tech began in 2016, where I had privilege to be part
-            of the co-founding members of the awards winning team at{' '}
+            My tech journey began in 2016 when I had the privilege of
+            co-founding the award-winning team at{' '}
             <a
               href={BAMBU_URL}
               className="text-primary font-bold underline"
               target="_blank"
               rel="noreferrer"
             >
-              BAMBU (closed in 2023)
-            </a>{' '}
-            on a mission to provide next-gen wealth management solutions for
-            financial institutions worldwide.
+              BAMBU (ceased operations in 2023)
+            </a>
+            , a startup on a mission to revolutionize wealth management for
+            financial institutions around the world.
           </p>
         </div>
         <div className="space-y-2">
           <h3 className="text-gold-dark dark:text-gold text-md font-bold">
-            The Storm
+            Weathering The Storm
           </h3>
           <p className="text-sm md:text-justify">
-            After almost 6 years worth of rewarding adventure in the startup
-            world, I moved onto my next journey to build digital economy of the
-            future in one of the world&apos;s largest economies with{' '}
+            After nearly six rewarding years in the startup world, I joined{' '}
             <a
               href={GOJEK_URL}
               className="text-primary font-bold underline"
@@ -49,20 +47,12 @@ export function AboutMe() {
               rel="noreferrer"
             >
               Gojek
-            </a>
-            . Unfortunately,{' '}
-            <a
-              href={LAYOFF_NEWS_URL}
-              className="text-primary font-bold underline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              my venture was cut short along with 1,299 others
             </a>{' '}
-            due to the macroeconomic situation. While looking for the next big
-            thing, I spend most of my days learning new things, building side
-            projects, and of course, catching the Celtics game whenever I can.
-            Go C&apos;s!
+            to help shape the digital economy in one of the world’s largest
+            markets. Unfortunately, my time there ended—alongside 1,299
+            others—due to macroeconomic headwinds. During this transitional
+            period, I’ve stayed busy learning new technologies, building side
+            projects, and catching every Celtics game I can. Go C’s!
           </p>
         </div>
         <div className="space-y-2">
@@ -70,29 +60,18 @@ export function AboutMe() {
             Returning To The Roots
           </h3>
           <p className="text-sm md:text-justify">
-            A full-circle moment happened, it&apos;s the long (or short) awaited
-            reunion with my colleagues and bosses at BAMBU (closed in 2023). Now
-            wiser and renewed, I was appointed as the lead engineer of
-            BAMBU&apos;s flagship product:{' '}
+            In a full-circle moment, I reunited with my former BAMBU colleagues
+            and leaders. This time, I returned as Lead Engineer for{' '}
             <a
               href={BAMBU_GO_NEWS_URL}
               className="text-primary font-bold underline"
               target="_blank"
               rel="noreferrer"
             >
-              BAMBU GO, the first ever SaaS Robo-advisor
+              BAMBU GO
             </a>
-            . Unfortunately, it didn&apos;t get the fairytale ending that it
-            deserved (
-            <a
-              href={BAMBU_SHUTDOWN_URL}
-              className="text-primary font-bold underline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              BAMBU closed down their operation in 2023
-            </a>
-            ).
+            —our flagship SaaS robo-advisor platform. Although it didn’t get the
+            fairytale ending it deserved, the experience was invaluable.
           </p>
         </div>
         <div className="space-y-2">
@@ -100,7 +79,7 @@ export function AboutMe() {
             The Story Continues
           </h3>
           <p className="text-sm md:text-justify">
-            I&apos;m currently working as Senior Software Engineer at{' '}
+            Today, I serve as a Senior Software Engineer at{' '}
             <a
               href={YOUTRIP_URL}
               className="text-primary font-bold underline"
@@ -108,18 +87,10 @@ export function AboutMe() {
               rel="noreferrer"
             >
               YouTrip
-            </a>{' '}
-            as part of the{' '}
-            <a
-              href={YOUBIZ_PR_URL}
-              className="text-primary font-bold underline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              YouBiz
-            </a>{' '}
-            team . Where I&apos;m currently tasked to develop an enterprise
-            level multi-currency expense management platform: YouBiz.
+            </a>
+            , working as part of the YouBiz team. I’m currently leading the
+            development of an enterprise-grade, multi-currency expense
+            management platform for businesses.
           </p>
         </div>
       </div>
