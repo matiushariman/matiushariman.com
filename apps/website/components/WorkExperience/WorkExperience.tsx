@@ -11,9 +11,10 @@ const WORK = [
     companyUrl: YOUTRIP_URL,
     companyName: 'YouTrip',
     responsibilities: [
-      'Migrated legacy YouBiz web codebase to Typescript to improve DX, maintainability, and long term scalability.',
-      'Established testing strategy (unit & integration) and pull-request workflow for frontend web applications across YouTrip & YouBiz.',
-      'Led the implementation of a continuous refactoring process, reducing technical debts by upgrading outdated dependencies and removing deprecated code, resulting in a higher maintainability and security vulnerability rating.',
+      'Migrated YouBiz’s legacy web codebase to TypeScript, improving developer experience (DX) and code maintainability, which enabled smoother scaling of the platform.',
+      'Implemented a standardized testing strategy (BDD) and automated pull-request workflows, increasing code reliability and reducing review overhead across YouTrip and YouBiz.',
+      'Reduced customer-facing web application bundle size by 27%, significantly improving loading speed and performance.',
+      'Optimized web application CI/CD process, reducing build and deployment times by 75% and enabling 4× faster delivery.',
     ],
   },
   {
@@ -25,10 +26,10 @@ const WORK = [
     companyUrl: BAMBU_URL,
     companyName: 'BAMBU (closed in 2023)',
     responsibilities: [
-      'Led the adoption of Component-driven Development with Storybook & Chromatic for developing BAMBU’s in-house design system and accessible next-gen frontend experience.',
-      'Established best practices in pursuit of engineering excellence: trunk-based development with feature flags, CODEOWNERS, Architecture Decision Record (ADR).',
-      'Liaised with designers, product owners, and C-suite stakeholders to define requirements and build a consistent user experience across the applications.',
-      'Conducted weekly engineering grooming sessions to review and plan engineering efforts required to deliver the product or feature.',
+      'Led the adoption of component-driven development using Storybook and Chromatic, enabling the creation of BAMBU’s in-house design system and delivering an accessible next-gen frontend experience.',
+      'Established engineering best practices—including trunk-based development with feature flags, CODEOWNERS for automated PR assignment, and Architecture Decision Records (ADR)—to enhance agility, code quality, and long-term maintainability across a monorepo with 20+ packages.',
+      'Collaborated with designers, product owners, and C-suite stakeholders to define requirements and deliver a unified, consistent user experience across applications.',
+      'Facilitated weekly engineering grooming sessions to review, prioritize, and plan technical efforts, ensuring smooth and predictable delivery.',
     ],
   },
   {
@@ -40,10 +41,9 @@ const WORK = [
     companyUrl: GOJEK_URL,
     companyName: 'Gojek',
     responsibilities: [
-      'Worked on a singleSPA based micro-frontend application as part of a 3-man frontend development team that achieved 100% burndown chart in consecutive sprints',
-      'Improved application test coverage to 90%, the best mark among Moka Backoffice micro frontend applications.',
-      'Spearheaded the implementation of behaviour-driven development (BDD) with Playwright.',
-      "Actively participated in the commerce enablement FE guild to improve overall FE workflow across feature & product teams. Introduced react testing library's best practice to improve unit/integration tests' confidence level and minimize false positive test results.",
+      'Delivered a Single-SPA–based micro-frontend application as part of a 3-person frontend team, consistently completing sprint commitments (100% burndown), which improved delivery predictability and stakeholder confidence.',
+      'Elevated application quality by driving the adoption of behavior-driven development (BDD) with Playwright and increasing test coverage to 90%—the highest among Moka Backoffice micro-frontend applications—resulting in more reliable releases',
+      'Collaborated within the Commerce Enablement FE Guild to enhance frontend workflows across product teams, introducing React Testing Library best practices that improved test confidence and reduced false positives.',
     ],
   },
   {
@@ -55,11 +55,11 @@ const WORK = [
     companyUrl: BAMBU_URL,
     companyName: 'BAMBU (closed in 2023)',
     responsibilities: [
-      'Managed a team of 3 front-end engineers to develop the world’s first robo advisory SaaS platform (BAMBU GO 2.0) with ReactJS v16.x.x and Redux, the platform won “Best of Show” award at the 2021 FinovateFall event held in NYC.',
-      'Introduced integration test using @testing-library/react and MSW and E2E test using cypress to encourage developers to write more “meaningful” tests. Code coverage of 70% or more is successfully maintained while reducing the number of meaningless tests by more than 50% at the same time.',
-      'Successfully delivered up to 3 POCs and MVPs per week written in AngularJS v1.x.x as part of a 5-man team that led to multiple business deals and Series-A and Series-B round fundings.',
-      'Revolutionized deployment strategy from the slower, more error-prone manual deployment to automated CI/CD process using bitbucket-pipeline.',
-      'Helped to grow the engineering team from 3 in early 2017 to 15+ by the end of 2020 by acting as one of the lead interviewers for technical roles.',
+      'Led a 3-person frontend team to develop BAMBU GO 2.0—the world’s first robo-advisory SaaS platform using ReactJS and Redux—winning “Best of Show” at 2021 FinovateFall in New York.',
+      'Boosted test reliability by introducing integration (@testing-library/react, MSW) and E2E (Cypress) testing, achieving 70%+ coverage while eliminating 50% of redundant tests.',
+      'Accelerated product delivery by spearheading frontend development for multiple live projects, POCs, and MVPs (AngularJS, ReactJS), driving business deals and securing Series A/B funding.',
+      'Streamlined deployment by replacing manual releases with automated Bitbucket Pipeline CI/CD, cutting errors and accelerating release cycles.',
+      'Scaled engineering team from 3 to 15+ (2017–2020) by leading technical interviews, improving hiring quality and strengthening team capabilities.',
     ],
   },
 ];
