@@ -1,4 +1,7 @@
-import { useThemeContext, Theme } from '../../Providers/ThemeProvider/ThemeProvider';
+import {
+  useThemeContext,
+  Theme,
+} from '../../Providers/ThemeProvider/ThemeProvider';
 import Sun from '../Icons/Sun/Sun';
 import Moon from '../Icons/Moon/Moon';
 

@@ -1,4 +1,11 @@
-import { createContext, useState, useMemo, useEffect, ReactNode, useContext } from 'react';
+import {
+  createContext,
+  useState,
+  useMemo,
+  useEffect,
+  ReactNode,
+  useContext,
+} from 'react';
 
 export type Theme = 'warm' | 'slate' | 'night';
 
@@ -7,7 +14,9 @@ export interface ThemeContextProps {
   setTheme: (t: Theme) => void;
 }
 
-export const ThemeContext = createContext<ThemeContextProps>({} as ThemeContextProps);
+export const ThemeContext = createContext<ThemeContextProps>(
+  {} as ThemeContextProps
+);
 
 export interface ThemeProviderProps {
   children?: ReactNode;
@@ -34,6 +43,7 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
   );
 }
 
-export const useThemeContext = () => useContext<ThemeContextProps>(ThemeContext);
+export const useThemeContext = () =>
+  useContext<ThemeContextProps>(ThemeContext);
 
 export default ThemeProvider;

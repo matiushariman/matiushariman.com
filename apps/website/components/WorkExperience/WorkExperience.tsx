@@ -11,7 +11,7 @@ const WORK = [
     period: 'Oct 2023 — Present',
     tag: null,
     bullets: [
-      "Migrated YouBiz’s legacy web codebase to TypeScript, improving developer experience (DX) and code maintainability, which enabled smoother scaling of the platform.",
+      'Migrated YouBiz’s legacy web codebase to TypeScript, improving developer experience (DX) and code maintainability, which enabled smoother scaling of the platform.',
       'Implemented a standardized testing strategy (BDD) and automated pull-request workflows, increasing code reliability and reducing review overhead across YouTrip and YouBiz.',
       'Reduced customer-facing web application bundle size by 27%, significantly improving loading speed and performance.',
       'Optimized web application CI/CD process, reducing build and deployment times by 75% and enabling 4× faster delivery.',
@@ -54,7 +54,7 @@ const WORK = [
     period: 'Dec 2016 — Jul 2022',
     tag: 'Closed in 2023',
     bullets: [
-      "Led a 3-person frontend team to develop BAMBU GO 2.0—the world's first robo-advisory SaaS platform using ReactJS and Redux—winning \"Best of Show\" at 2021 FinovateFall in New York.",
+      'Led a 3-person frontend team to develop BAMBU GO 2.0—the world\'s first robo-advisory SaaS platform using ReactJS and Redux—winning "Best of Show" at 2021 FinovateFall in New York.',
       'Boosted test reliability by introducing integration (@testing-library/react, MSW) and E2E (Cypress) testing, achieving 70%+ coverage while eliminating 50% of redundant tests.',
       'Accelerated product delivery by spearheading frontend development for multiple live projects, POCs, and MVPs, driving business deals and securing Series A/B funding.',
       'Streamlined deployment by replacing manual releases with automated CI/CD, cutting errors and accelerating release cycles.',
@@ -70,11 +70,21 @@ export function WorkExperience() {
         {WORK.map((work, i) => (
           <div className="exp-item" key={i}>
             <div className="exp-logo">
-              <Image src={work.src} alt={work.alt} fill style={{ objectFit: 'contain' }} />
+              <Image
+                src={work.src}
+                alt={work.alt}
+                fill
+                style={{ objectFit: 'contain' }}
+              />
             </div>
             <div>
               <div className="exp-header">
-                <a className="exp-company" href={work.companyUrl} target="_blank" rel="noreferrer">
+                <a
+                  className="exp-company"
+                  href={work.companyUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {work.company}
                 </a>
                 <span className="exp-period">{work.period}</span>

@@ -1,7 +1,14 @@
 const SKILL_GROUPS = [
   {
     title: 'Frontend',
-    tags: ['React', 'TypeScript', 'Next.js', 'Vue.js', 'CSS / SCSS', 'Tailwind'],
+    tags: [
+      'React',
+      'TypeScript',
+      'Next.js',
+      'Vue.js',
+      'CSS / SCSS',
+      'Tailwind',
+    ],
   },
   {
     title: 'Testing & Quality',
@@ -27,7 +34,9 @@ export function Skills() {
             <div className="skill-group-title">{group.title}</div>
             <div className="skill-tags">
               {group.tags.map((tag) => (
-                <span className="skill-tag" key={tag}>{tag}</span>
+                <span className="skill-tag" key={tag}>
+                  {tag}
+                </span>
               ))}
             </div>
           </div>
