@@ -1,21 +1,28 @@
-import { useThemeContext } from '../../Providers/ThemeProvider/ThemeProvider';
+import { useThemeContext, Theme } from '../../Providers/ThemeProvider/ThemeProvider';
 import Sun from '../Icons/Sun/Sun';
 import Moon from '../Icons/Moon/Moon';
 
+const CYCLE: Theme[] = ['night', 'warm', 'slate'];
+
 export function ThemeSwitch() {
-  const { toggleMode, mode } = useThemeContext();
-  const isLightMode = mode === 'light';
+  const { theme, setTheme } = useThemeContext();
+  const isDark = theme === 'night';
+
+  const cycleTheme = () => {
+    const next = CYCLE[(CYCLE.indexOf(theme) + 1) % CYCLE.length];
+    setTheme(next);
+  };
 
   return (
     <button
-      onClick={toggleMode}
+      onClick={cycleTheme}
       aria-label={
-        isLightMode
-          ? 'So bright! I want to switch to dark mode'
-          : 'So dark! I want to switch to light mode'
+        isDark
+          ? 'So dark! I want to switch to light mode'
+          : 'So bright! I want to switch to dark mode'
       }
     >
-      {isLightMode ? <Sun /> : <Moon />}
+      {isDark ? <Moon /> : <Sun />}
     </button>
   );
 }

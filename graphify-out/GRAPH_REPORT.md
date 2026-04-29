@@ -1,12 +1,12 @@
 # Graph Report - /Users/matiushariman/Coding/matiushariman.com  (2026-04-29)
 
 ## Corpus Check
-- 31 files · ~132,773 words
+- 31 files · ~132,763 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 100 nodes · 86 edges · 31 communities detected
-- Extraction: 66% EXTRACTED · 34% INFERRED · 0% AMBIGUOUS · INFERRED: 29 edges (avg confidence: 0.85)
+- 100 nodes · 87 edges · 30 communities detected
+- Extraction: 66% EXTRACTED · 34% INFERRED · 0% AMBIGUOUS · INFERRED: 30 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -40,7 +40,6 @@
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `matiushariman.com` - 9 edges
@@ -63,8 +62,8 @@
   jest.config.ts → apps/website/jest.config.ts
 - `Website Jest Config` --references--> `NX Jest Preset Config`  [EXTRACTED]
   apps/website/jest.config.ts → jest.preset.js
-- `ThemeSwitch Component` --calls--> `useThemeContext()`  [EXTRACTED]
-  apps/website/components/ThemeSwitch/ThemeSwitch.tsx → /Users/matiushariman/Coding/matiushariman.com/apps/website/Providers/ThemeProvider/ThemeProvider.tsx
+- `Favicon 16x16` --semantically_similar_to--> `Favicon 32x32`  [INFERRED] [semantically similar]
+  apps/website/public/favicon-16x16.png → apps/website/public/favicon-32x32.png
 
 ## Hyperedges (group relationships)
 - **Website Build Configuration** — next_config_websiteconfig, tailwind_config_websiteconfig, postcss_config_websiteconfig, prettier_config_config [INFERRED 0.85]
@@ -102,8 +101,8 @@ Cohesion: 0.27
 Nodes (10): Bambu, Bambu Logo, Fintech, Super App, Wealthtech / Robo-advisory, Gojek, Gojek Logo, Personal Portfolio Website (+2 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.33
-Nodes (3): Index(), useThemeContext(), ThemeSwitch Component
+Cohesion: 0.29
+Nodes (3): Index(), useThemeContext(), ThemeSwitch()
 
 ### Community 6 - "Community 6"
 Cohesion: 0.4
@@ -179,34 +178,30 @@ Nodes (1): YOUTRIP_URL Constant
 
 ### Community 24 - "Community 24"
 Cohesion: 1.0
-Nodes (1): ThemeSwitch Component
+Nodes (0): 
 
 ### Community 25 - "Community 25"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Sun Icon Component
 
 ### Community 26 - "Community 26"
 Cohesion: 1.0
-Nodes (1): Sun Icon Component
+Nodes (1): Moon Icon Component
 
 ### Community 27 - "Community 27"
 Cohesion: 1.0
-Nodes (1): Moon Icon Component
+Nodes (1): CompanyImage Component
 
 ### Community 28 - "Community 28"
 Cohesion: 1.0
-Nodes (1): CompanyImage Component
-
-### Community 29 - "Community 29"
-Cohesion: 1.0
 Nodes (0): 
 
-### Community 30 - "Community 30"
+### Community 29 - "Community 29"
 Cohesion: 1.0
 Nodes (1): Apple Touch Icon
 
 ## Knowledge Gaps
-- **45 isolated node(s):** `NX Jest Preset Config`, `Prettier Config`, `Root Jest Config`, `Website Next.js Config`, `SVG Module Declaration` (+40 more)
+- **43 isolated node(s):** `NX Jest Preset Config`, `Prettier Config`, `Root Jest Config`, `Website Next.js Config`, `SVG Module Declaration` (+38 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `Community 9`** (2 nodes): `Website Next.js Config`, `Website PostCSS Config`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -238,19 +233,17 @@ Nodes (1): Apple Touch Icon
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 23`** (1 nodes): `YOUTRIP_URL Constant`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 24`** (1 nodes): `ThemeSwitch Component`
+- **Thin community `Community 24`** (1 nodes): `WorkExperience.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 25`** (1 nodes): `WorkExperience.tsx`
+- **Thin community `Community 25`** (1 nodes): `Sun Icon Component`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 26`** (1 nodes): `Sun Icon Component`
+- **Thin community `Community 26`** (1 nodes): `Moon Icon Component`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 27`** (1 nodes): `Moon Icon Component`
+- **Thin community `Community 27`** (1 nodes): `CompanyImage Component`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 28`** (1 nodes): `CompanyImage Component`
+- **Thin community `Community 28`** (1 nodes): `_app.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 29`** (1 nodes): `_app.tsx`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 30`** (1 nodes): `Apple Touch Icon`
+- **Thin community `Community 29`** (1 nodes): `Apple Touch Icon`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
@@ -263,4 +256,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Personal Website Screenshot` connect `Community 0` to `Community 3`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
 - **What connects `NX Jest Preset Config`, `Prettier Config`, `Root Jest Config` to the rest of the system?**
-  _45 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _43 weakly-connected nodes found - possible documentation gaps or missing edges._

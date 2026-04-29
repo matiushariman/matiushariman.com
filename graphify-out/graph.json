@@ -409,30 +409,22 @@
       "norm_label": "usethemecontext()"
     },
     {
-      "label": "ThemeSwitch Component",
+      "label": "ThemeSwitch.tsx",
       "file_type": "code",
-      "source_file": "apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "themeswitch_themeswitch",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_components_themeswitch_themeswitch_tsx",
       "community": 5,
-      "norm_label": "themeswitch component"
+      "norm_label": "themeswitch.tsx"
     },
     {
-      "label": "ThemeSwitch Component",
+      "label": "ThemeSwitch()",
       "file_type": "code",
-      "source_file": "apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "components_themeswitch",
-      "community": 24,
-      "norm_label": "themeswitch component"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
+      "source_location": "L7",
+      "id": "themeswitch_themeswitch",
+      "community": 5,
+      "norm_label": "themeswitch()"
     },
     {
       "label": "WorkExperience.tsx",
@@ -440,7 +432,7 @@
       "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/WorkExperience/WorkExperience.tsx",
       "source_location": "L1",
       "id": "users_matiushariman_coding_matiushariman_com_apps_website_components_workexperience_workexperience_tsx",
-      "community": 25,
+      "community": 24,
       "norm_label": "workexperience.tsx"
     },
     {
@@ -528,7 +520,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_sun",
-      "community": 26,
+      "community": 25,
       "norm_label": "sun icon component"
     },
     {
@@ -567,7 +559,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_moon",
-      "community": 27,
+      "community": 26,
       "norm_label": "moon icon component"
     },
     {
@@ -619,7 +611,7 @@
       "author": null,
       "contributor": null,
       "id": "companyimage_companyimagecomponent",
-      "community": 28,
+      "community": 27,
       "norm_label": "companyimage component"
     },
     {
@@ -721,7 +713,7 @@
       "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/_app.tsx",
       "source_location": "L1",
       "id": "users_matiushariman_coding_matiushariman_com_apps_website_pages_app_tsx",
-      "community": 29,
+      "community": 28,
       "norm_label": "_app.tsx"
     },
     {
@@ -1396,7 +1388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "apple touch icon",
       "id": "apple_touch_icon_asset"
     }
@@ -1512,13 +1504,13 @@
     },
     {
       "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
-      "source_location": "line 6",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
+      "source_location": "L8",
       "weight": 1.0,
-      "_src": "themeswitch_themeswitch",
-      "_tgt": "themeprovider_usethemecontext",
+      "_src": "themeprovider_usethemecontext",
+      "_tgt": "themeswitch_themeswitch",
       "source": "themeprovider_usethemecontext",
       "target": "themeswitch_themeswitch"
     },
@@ -1533,6 +1525,18 @@
       "_tgt": "index_index",
       "source": "themeprovider_usethemecontext",
       "target": "index_index"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_components_themeswitch_themeswitch_tsx",
+      "_tgt": "themeswitch_themeswitch",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_components_themeswitch_themeswitch_tsx",
+      "target": "themeswitch_themeswitch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
