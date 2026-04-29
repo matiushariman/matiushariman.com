@@ -1,12 +1,9 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import cc from 'classcat';
 import { Analytics } from '@vercel/analytics/react';
 import './styles.css';
 
-import ThemeProvider, {
-  ThemeContext,
-} from '../Providers/ThemeProvider/ThemeProvider';
+import ThemeProvider, { ThemeContext } from '../Providers/ThemeProvider/ThemeProvider';
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -16,11 +13,11 @@ function CustomApp({ Component, pageProps }: AppProps) {
       </Head>
       <ThemeProvider>
         <ThemeContext.Consumer>
-          {({ mode }) => (
-            <main className={cc(['app', { dark: mode === 'dark' }])}>
+          {({ theme }) => (
+            <div className="app" data-theme={theme === 'warm' ? undefined : theme}>
               <Component {...pageProps} />
               <Analytics />
-            </main>
+            </div>
           )}
         </ThemeContext.Consumer>
       </ThemeProvider>

@@ -1,34 +1,39 @@
-import { createContext, useState, useMemo, ReactNode, useContext } from 'react';
+import { createContext, useState, useMemo, useEffect, ReactNode, useContext } from 'react';
+
+export type Theme = 'warm' | 'slate' | 'night';
 
 export interface ThemeContextProps {
-  mode: 'light' | 'dark';
-  toggleMode: () => void;
+  theme: Theme;
+  setTheme: (t: Theme) => void;
 }
 
-export const ThemeContext = createContext<ThemeContextProps>(
-  {} as ThemeContextProps
-);
+export const ThemeContext = createContext<ThemeContextProps>({} as ThemeContextProps);
 
 export interface ThemeProviderProps {
   children?: ReactNode;
 }
 
 export function ThemeProvider({ children }: ThemeProviderProps) {
-  const [mode, setMode] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<Theme>('night');
 
-  const toggleMode = () => {
-    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
-  };
+  useEffect(() => {
+    const stored = localStorage.getItem('theme') as Theme | null;
+    if (stored && ['warm', 'slate', 'night'].includes(stored)) {
+      setTheme(stored);
+    }
+  }, []);
 
-  const value = useMemo(() => ({ mode, toggleMode }), [mode]);
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const value = useMemo(() => ({ theme, setTheme }), [theme]);
 
   return (
     <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
   );
 }
 
-export const useThemeContext = () => {
-  return useContext<ThemeContextProps>(ThemeContext);
-};
+export const useThemeContext = () => useContext<ThemeContextProps>(ThemeContext);
 
 export default ThemeProvider;

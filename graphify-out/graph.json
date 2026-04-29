@@ -178,7 +178,7 @@
       "author": null,
       "contributor": null,
       "id": "jest_preset_nxpreset",
-      "community": 9,
+      "community": 7,
       "norm_label": "nx jest preset config"
     },
     {
@@ -191,7 +191,7 @@
       "author": null,
       "contributor": null,
       "id": "prettier_config_config",
-      "community": 8,
+      "community": 16,
       "norm_label": "prettier config"
     },
     {
@@ -204,21 +204,17 @@
       "author": null,
       "contributor": null,
       "id": "jest_config_rootconfig",
-      "community": 9,
+      "community": 7,
       "norm_label": "root jest config"
     },
     {
-      "label": "Website Tailwind Config",
+      "label": "tailwind.config.js",
       "file_type": "code",
-      "source_file": "apps/website/tailwind.config.js",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "tailwind_config_websiteconfig",
-      "community": 8,
-      "norm_label": "website tailwind config"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/tailwind.config.js",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_tailwind_config_js",
+      "community": 17,
+      "norm_label": "tailwind.config.js"
     },
     {
       "label": "Website Next.js Config",
@@ -230,7 +226,7 @@
       "author": null,
       "contributor": null,
       "id": "next_config_websiteconfig",
-      "community": 8,
+      "community": 9,
       "norm_label": "website next.js config"
     },
     {
@@ -239,7 +235,7 @@
       "source_file": "apps/website/next-env.d.ts",
       "source_location": "L1",
       "id": "apps_website_next_env_d_ts",
-      "community": 15,
+      "community": 18,
       "norm_label": "next-env.d.ts"
     },
     {
@@ -252,7 +248,7 @@
       "author": null,
       "contributor": null,
       "id": "index_d_svg_module",
-      "community": 16,
+      "community": 19,
       "norm_label": "svg module declaration"
     },
     {
@@ -265,7 +261,7 @@
       "author": null,
       "contributor": null,
       "id": "postcss_config_websiteconfig",
-      "community": 8,
+      "community": 9,
       "norm_label": "website postcss config"
     },
     {
@@ -278,7 +274,7 @@
       "author": null,
       "contributor": null,
       "id": "website_jest_config_websiteconfig",
-      "community": 9,
+      "community": 7,
       "norm_label": "website jest config"
     },
     {
@@ -291,7 +287,7 @@
       "author": null,
       "contributor": null,
       "id": "index_spec_indextest",
-      "community": 9,
+      "community": 7,
       "norm_label": "index page render test"
     },
     {
@@ -304,7 +300,7 @@
       "author": null,
       "contributor": null,
       "id": "url_constants_urls",
-      "community": 17,
+      "community": 20,
       "norm_label": "url constants"
     },
     {
@@ -317,7 +313,7 @@
       "author": null,
       "contributor": null,
       "id": "url_constants_gojek_url",
-      "community": 6,
+      "community": 21,
       "norm_label": "gojek_url constant"
     },
     {
@@ -330,7 +326,7 @@
       "author": null,
       "contributor": null,
       "id": "url_constants_bambu_url",
-      "community": 6,
+      "community": 22,
       "norm_label": "bambu_url constant"
     },
     {
@@ -343,7 +339,7 @@
       "author": null,
       "contributor": null,
       "id": "url_constants_youtrip_url",
-      "community": 6,
+      "community": 23,
       "norm_label": "youtrip_url constant"
     },
     {
@@ -356,7 +352,7 @@
       "author": null,
       "contributor": null,
       "id": "url_constants_github_profile_url",
-      "community": 11,
+      "community": 8,
       "norm_label": "github_profile_url constant"
     },
     {
@@ -369,7 +365,7 @@
       "author": null,
       "contributor": null,
       "id": "url_constants_linkedin_profile_url",
-      "community": 11,
+      "community": 8,
       "norm_label": "linkedin_profile_url constant"
     },
     {
@@ -382,60 +378,35 @@
       "author": null,
       "contributor": null,
       "id": "constants_url",
-      "community": 0,
+      "community": 1,
       "norm_label": "url constants"
     },
     {
-      "label": "ThemeProvider Component",
+      "label": "ThemeProvider.tsx",
       "file_type": "code",
-      "source_file": "apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "themeprovider_themeprovider",
-      "community": 10,
-      "norm_label": "themeprovider component"
-    },
-    {
-      "label": "ThemeContext",
-      "file_type": "code",
-      "source_file": "apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
-      "source_location": "line 8",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "themeprovider_themecontext",
-      "community": 10,
-      "norm_label": "themecontext"
-    },
-    {
-      "label": "useThemeContext Hook",
-      "file_type": "code",
-      "source_file": "apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
-      "source_location": "line 30",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "themeprovider_usethemecontext",
-      "community": 10,
-      "norm_label": "usethemecontext hook"
-    },
-    {
-      "label": "ThemeProvider",
-      "file_type": "code",
-      "source_file": "apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "providers_themeprovider",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_providers_themeprovider_themeprovider_tsx",
       "community": 5,
-      "norm_label": "themeprovider"
+      "norm_label": "themeprovider.tsx"
+    },
+    {
+      "label": "ThemeProvider()",
+      "file_type": "code",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
+      "source_location": "L16",
+      "id": "themeprovider_themeprovider",
+      "community": 5,
+      "norm_label": "themeprovider()"
+    },
+    {
+      "label": "useThemeContext()",
+      "file_type": "code",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
+      "source_location": "L37",
+      "id": "themeprovider_usethemecontext",
+      "community": 5,
+      "norm_label": "usethemecontext()"
     },
     {
       "label": "ThemeSwitch Component",
@@ -447,7 +418,7 @@
       "author": null,
       "contributor": null,
       "id": "themeswitch_themeswitch",
-      "community": 10,
+      "community": 5,
       "norm_label": "themeswitch component"
     },
     {
@@ -460,47 +431,35 @@
       "author": null,
       "contributor": null,
       "id": "components_themeswitch",
-      "community": 0,
+      "community": 24,
       "norm_label": "themeswitch component"
     },
     {
-      "label": "WorkExperience Component",
+      "label": "WorkExperience.tsx",
       "file_type": "code",
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "workexperience_workexperience",
-      "community": 6,
-      "norm_label": "workexperience component"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/WorkExperience/WorkExperience.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_components_workexperience_workexperience_tsx",
+      "community": 25,
+      "norm_label": "workexperience.tsx"
     },
     {
-      "label": "WORK Data Array",
+      "label": "Contact.tsx",
       "file_type": "code",
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": "line 4",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "workexperience_work_data",
-      "community": 6,
-      "norm_label": "work data array"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/Contact/Contact.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_components_contact_contact_tsx",
+      "community": 10,
+      "norm_label": "contact.tsx"
     },
     {
-      "label": "WorkExperience Component",
+      "label": "ArrowIcon()",
       "file_type": "code",
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "components_workexperience",
-      "community": 0,
-      "norm_label": "workexperience component"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/Contact/Contact.tsx",
+      "source_location": "L37",
+      "id": "contact_arrowicon",
+      "community": 10,
+      "norm_label": "arrowicon()"
     },
     {
       "label": "SocialLink Component",
@@ -512,7 +471,7 @@
       "author": null,
       "contributor": null,
       "id": "sociallink_sociallink",
-      "community": 11,
+      "community": 8,
       "norm_label": "sociallink component"
     },
     {
@@ -525,7 +484,7 @@
       "author": null,
       "contributor": null,
       "id": "components_sociallink",
-      "community": 0,
+      "community": 1,
       "norm_label": "sociallink component"
     },
     {
@@ -538,73 +497,26 @@
       "author": null,
       "contributor": null,
       "id": "madewithlovetsxcomponent_madewithlovetsxcomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "madewithlove component"
     },
     {
-      "label": "AboutMe Component",
+      "label": "AboutMe.tsx",
       "file_type": "code",
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "aboutme_aboutmecomponent",
-      "community": 0,
-      "norm_label": "aboutme component"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/AboutMe/AboutMe.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_components_aboutme_aboutme_tsx",
+      "community": 11,
+      "norm_label": "aboutme.tsx"
     },
     {
-      "label": "Personal Biography Content",
+      "label": "AboutMe()",
       "file_type": "code",
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "concept_personal_bio",
-      "community": 0,
-      "norm_label": "personal biography content"
-    },
-    {
-      "label": "BAMBU (Company)",
-      "file_type": "code",
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "external_bambu",
-      "community": 0,
-      "norm_label": "bambu (company)"
-    },
-    {
-      "label": "Gojek (Company)",
-      "file_type": "code",
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "external_gojek",
-      "community": 0,
-      "norm_label": "gojek (company)"
-    },
-    {
-      "label": "YouTrip (Company)",
-      "file_type": "code",
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "external_youtrip",
-      "community": 0,
-      "norm_label": "youtrip (company)"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/AboutMe/AboutMe.tsx",
+      "source_location": "L8",
+      "id": "aboutme_aboutme",
+      "community": 11,
+      "norm_label": "aboutme()"
     },
     {
       "label": "Sun Icon Component",
@@ -616,7 +528,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_sun",
-      "community": 5,
+      "community": 26,
       "norm_label": "sun icon component"
     },
     {
@@ -629,7 +541,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_heart",
-      "community": 0,
+      "community": 1,
       "norm_label": "heart icon component"
     },
     {
@@ -642,7 +554,7 @@
       "author": null,
       "contributor": null,
       "id": "concept_classcat",
-      "community": 0,
+      "community": 1,
       "norm_label": "classcat utility"
     },
     {
@@ -655,7 +567,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_moon",
-      "community": 5,
+      "community": 27,
       "norm_label": "moon icon component"
     },
     {
@@ -668,7 +580,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_github",
-      "community": 0,
+      "community": 1,
       "norm_label": "github icon component"
     },
     {
@@ -681,7 +593,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_mappin",
-      "community": 0,
+      "community": 1,
       "norm_label": "mappin icon component"
     },
     {
@@ -694,7 +606,7 @@
       "author": null,
       "contributor": null,
       "id": "icons_linkedin",
-      "community": 0,
+      "community": 1,
       "norm_label": "linkedin icon component"
     },
     {
@@ -707,8 +619,26 @@
       "author": null,
       "contributor": null,
       "id": "companyimage_companyimagecomponent",
-      "community": 0,
+      "community": 28,
       "norm_label": "companyimage component"
+    },
+    {
+      "label": "Skills.tsx",
+      "file_type": "code",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/Skills/Skills.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_components_skills_skills_tsx",
+      "community": 12,
+      "norm_label": "skills.tsx"
+    },
+    {
+      "label": "Skills()",
+      "file_type": "code",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/Skills/Skills.tsx",
+      "source_location": "L20",
+      "id": "skills_skills",
+      "community": 12,
+      "norm_label": "skills()"
     },
     {
       "label": "Socials Component",
@@ -720,7 +650,7 @@
       "author": null,
       "contributor": null,
       "id": "socials_socialscomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "socials component"
     },
     {
@@ -733,7 +663,7 @@
       "author": null,
       "contributor": null,
       "id": "myprofilegreeting_myprofilegreetingcomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "myprofilegreeting component"
     },
     {
@@ -746,86 +676,53 @@
       "author": null,
       "contributor": null,
       "id": "concept_singapore_location",
-      "community": 0,
+      "community": 1,
       "norm_label": "singapore location"
     },
     {
-      "label": "Index Page",
+      "label": "index.tsx",
       "file_type": "code",
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "pages_index",
-      "community": 0,
-      "norm_label": "index page"
-    },
-    {
-      "label": "Document Page (_document)",
-      "file_type": "code",
-      "source_file": "apps/website/pages/_document.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "pages_document",
-      "community": 12,
-      "norm_label": "document page (_document)"
-    },
-    {
-      "label": "Google Tag Manager Integration",
-      "file_type": "code",
-      "source_file": "apps/website/pages/_document.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "concept_gtm_integration",
-      "community": 12,
-      "norm_label": "google tag manager integration"
-    },
-    {
-      "label": "Custom App (_app)",
-      "file_type": "code",
-      "source_file": "apps/website/pages/_app.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "pages_app",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_pages_index_tsx",
       "community": 5,
-      "norm_label": "custom app (_app)"
+      "norm_label": "index.tsx"
     },
     {
-      "label": "Vercel Analytics Integration",
+      "label": "Index()",
       "file_type": "code",
-      "source_file": "apps/website/pages/_app.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "concept_vercel_analytics",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
+      "source_location": "L23",
+      "id": "index_index",
       "community": 5,
-      "norm_label": "vercel analytics integration"
+      "norm_label": "index()"
     },
     {
-      "label": "Dark Mode / Theme System",
+      "label": "_document.tsx",
       "file_type": "code",
-      "source_file": "apps/website/pages/_app.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "id": "concept_dark_mode",
-      "community": 5,
-      "norm_label": "dark mode / theme system"
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/_document.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_pages_document_tsx",
+      "community": 13,
+      "norm_label": "_document.tsx"
+    },
+    {
+      "label": "Document()",
+      "file_type": "code",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/_document.tsx",
+      "source_location": "L4",
+      "id": "document_document",
+      "community": 13,
+      "norm_label": "document()"
+    },
+    {
+      "label": "_app.tsx",
+      "file_type": "code",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/_app.tsx",
+      "source_location": "L1",
+      "id": "users_matiushariman_coding_matiushariman_com_apps_website_pages_app_tsx",
+      "community": 29,
+      "norm_label": "_app.tsx"
     },
     {
       "label": "matiushariman.com",
@@ -966,7 +863,7 @@
       "captured_at": null,
       "author": "matiushariman",
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "personal website screenshot",
       "id": "websitescreenshot_personal_website"
     },
@@ -979,7 +876,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "matius hariman",
       "id": "websitescreenshot_matius_hariman"
     },
@@ -1005,7 +902,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "singapore",
       "id": "websitescreenshot_singapore_location"
     },
@@ -1018,7 +915,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "boston celtics fan",
       "id": "websitescreenshot_boston_celtics_fan"
     },
@@ -1044,7 +941,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "where i've worked section",
       "id": "websitescreenshot_where_ive_worked_section"
     },
@@ -1057,7 +954,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "gojek",
       "id": "websitescreenshot_gojek"
     },
@@ -1070,7 +967,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "senior frontend engineer",
       "id": "websitescreenshot_senior_frontend_engineer"
     },
@@ -1083,7 +980,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "bombu",
       "id": "websitescreenshot_bombu"
     },
@@ -1187,7 +1084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "tailwindcss",
       "id": "websitescreenshot_tailwindcss"
     },
@@ -1200,7 +1097,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "nextjs (footer)",
       "id": "websitescreenshot_nextjs_footer"
     },
@@ -1226,7 +1123,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "robo advisory saas",
       "id": "websitescreenshot_robo_advisory"
     },
@@ -1239,7 +1136,7 @@
       "captured_at": null,
       "author": "matiushariman",
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "matius hariman avatar (memoji)",
       "id": "headshot_matius_hariman_avatar"
     },
@@ -1382,7 +1279,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "lighthouse best practices badge",
       "id": "lighthouse_best_practices_badge"
     },
@@ -1395,7 +1292,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "lighthouse performance badge",
       "id": "lighthouse_performance_badge"
     },
@@ -1408,7 +1305,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "lighthouse pwa badge",
       "id": "lighthouse_pwa_badge"
     },
@@ -1421,7 +1318,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "lighthouse seo badge",
       "id": "lighthouse_seo_badge"
     },
@@ -1434,7 +1331,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "lighthouse accessibility badge",
       "id": "lighthouse_accessibility_badge"
     },
@@ -1447,7 +1344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "norm_label": "favicon 16x16",
       "id": "favicon_16_asset"
     },
@@ -1460,7 +1357,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "norm_label": "favicon 32x32",
       "id": "favicon_32_asset"
     },
@@ -1473,7 +1370,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "norm_label": "android chrome icon 192x192",
       "id": "android_chrome_192_asset"
     },
@@ -1486,7 +1383,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "norm_label": "android chrome icon 512x512",
       "id": "android_chrome_512_asset"
     },
@@ -1499,7 +1396,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 30,
       "norm_label": "apple touch icon",
       "id": "apple_touch_icon_asset"
     }
@@ -1518,18 +1415,6 @@
       "target": "website_jest_config_websiteconfig"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.65,
-      "source_file": "prettier.config.js",
-      "source_location": null,
-      "weight": 0.7,
-      "_src": "prettier_config_config",
-      "_tgt": "tailwind_config_websiteconfig",
-      "source": "prettier_config_config",
-      "target": "tailwind_config_websiteconfig"
-    },
-    {
       "relation": "references",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
@@ -1540,30 +1425,6 @@
       "_tgt": "website_jest_config_websiteconfig",
       "source": "jest_config_rootconfig",
       "target": "website_jest_config_websiteconfig"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "apps/website/next.config.js",
-      "source_location": null,
-      "weight": 0.8,
-      "_src": "tailwind_config_websiteconfig",
-      "_tgt": "next_config_websiteconfig",
-      "source": "tailwind_config_websiteconfig",
-      "target": "next_config_websiteconfig"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/postcss.config.js",
-      "source_location": "line 11",
-      "weight": 1.0,
-      "_src": "postcss_config_websiteconfig",
-      "_tgt": "tailwind_config_websiteconfig",
-      "source": "tailwind_config_websiteconfig",
-      "target": "postcss_config_websiteconfig"
     },
     {
       "relation": "conceptually_related_to",
@@ -1588,78 +1449,6 @@
       "_tgt": "index_spec_indextest",
       "source": "website_jest_config_websiteconfig",
       "target": "index_spec_indextest"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": "line 1",
-      "weight": 1.0,
-      "_src": "workexperience_workexperience",
-      "_tgt": "url_constants_gojek_url",
-      "source": "url_constants_gojek_url",
-      "target": "workexperience_workexperience"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": "line 11",
-      "weight": 1.0,
-      "_src": "workexperience_work_data",
-      "_tgt": "url_constants_gojek_url",
-      "source": "url_constants_gojek_url",
-      "target": "workexperience_work_data"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": "line 1",
-      "weight": 1.0,
-      "_src": "workexperience_workexperience",
-      "_tgt": "url_constants_bambu_url",
-      "source": "url_constants_bambu_url",
-      "target": "workexperience_workexperience"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": "line 24",
-      "weight": 1.0,
-      "_src": "workexperience_work_data",
-      "_tgt": "url_constants_bambu_url",
-      "source": "url_constants_bambu_url",
-      "target": "workexperience_work_data"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": "line 1",
-      "weight": 1.0,
-      "_src": "workexperience_workexperience",
-      "_tgt": "url_constants_youtrip_url",
-      "source": "url_constants_youtrip_url",
-      "target": "workexperience_workexperience"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/WorkExperience/WorkExperience.tsx",
-      "source_location": "line 11",
-      "weight": 1.0,
-      "_src": "workexperience_work_data",
-      "_tgt": "url_constants_youtrip_url",
-      "source": "url_constants_youtrip_url",
-      "target": "workexperience_work_data"
     },
     {
       "relation": "conceptually_related_to",
@@ -1689,18 +1478,6 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "aboutme_aboutmecomponent",
-      "_tgt": "constants_url",
-      "source": "constants_url",
-      "target": "aboutme_aboutmecomponent"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "apps/website/components/Socials/Socials.tsx",
       "source_location": null,
       "weight": 1.0,
@@ -1710,40 +1487,28 @@
       "target": "socials_socialscomponent"
     },
     {
-      "relation": "implements",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
-      "source_location": "line 26",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
+      "source_location": "L16",
       "weight": 1.0,
-      "_src": "themeprovider_themeprovider",
-      "_tgt": "themeprovider_themecontext",
-      "source": "themeprovider_themeprovider",
-      "target": "themeprovider_themecontext"
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_providers_themeprovider_themeprovider_tsx",
+      "_tgt": "themeprovider_themeprovider",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_providers_themeprovider_themeprovider_tsx",
+      "target": "themeprovider_themeprovider",
+      "confidence_score": 1.0
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
-      "source_location": "line 31",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/Providers/ThemeProvider/ThemeProvider.tsx",
+      "source_location": "L37",
       "weight": 1.0,
-      "_src": "themeprovider_usethemecontext",
-      "_tgt": "themeprovider_themecontext",
-      "source": "themeprovider_themecontext",
-      "target": "themeprovider_usethemecontext"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
-      "source_location": "line 6",
-      "weight": 1.0,
-      "_src": "themeswitch_themeswitch",
-      "_tgt": "themeprovider_themecontext",
-      "source": "themeprovider_themecontext",
-      "target": "themeswitch_themeswitch"
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_providers_themeprovider_themeprovider_tsx",
+      "_tgt": "themeprovider_usethemecontext",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_providers_themeprovider_themeprovider_tsx",
+      "target": "themeprovider_usethemecontext",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1759,75 +1524,27 @@
     },
     {
       "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/_app.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "pages_app",
-      "_tgt": "providers_themeprovider",
-      "source": "providers_themeprovider",
-      "target": "pages_app"
-    },
-    {
-      "relation": "conceptually_related_to",
       "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "apps/website/pages/_app.tsx",
-      "source_location": null,
-      "weight": 0.95,
-      "_src": "providers_themeprovider",
-      "_tgt": "concept_dark_mode",
-      "source": "providers_themeprovider",
-      "target": "concept_dark_mode"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
+      "confidence_score": 0.8,
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
+      "source_location": "L25",
       "weight": 1.0,
-      "_src": "pages_index",
-      "_tgt": "components_themeswitch",
-      "source": "components_themeswitch",
-      "target": "pages_index"
+      "_src": "themeprovider_usethemecontext",
+      "_tgt": "index_index",
+      "source": "themeprovider_usethemecontext",
+      "target": "index_index"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
-      "weight": 0.9,
-      "_src": "components_themeswitch",
-      "_tgt": "concept_dark_mode",
-      "source": "components_themeswitch",
-      "target": "concept_dark_mode"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "apps/website/components/CompanyImage/CompanyImage.tsx",
-      "source_location": null,
-      "weight": 0.75,
-      "_src": "components_workexperience",
-      "_tgt": "companyimage_companyimagecomponent",
-      "source": "components_workexperience",
-      "target": "companyimage_companyimagecomponent"
-    },
-    {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/Contact/Contact.tsx",
+      "source_location": "L37",
       "weight": 1.0,
-      "_src": "pages_index",
-      "_tgt": "components_workexperience",
-      "source": "components_workexperience",
-      "target": "pages_index"
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_components_contact_contact_tsx",
+      "_tgt": "contact_arrowicon",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_components_contact_contact_tsx",
+      "target": "contact_arrowicon",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1854,100 +1571,16 @@
       "target": "icons_heart"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/AboutMe/AboutMe.tsx",
+      "source_location": "L8",
       "weight": 1.0,
-      "_src": "pages_index",
-      "_tgt": "madewithlovetsxcomponent_madewithlovetsxcomponent",
-      "source": "madewithlovetsxcomponent_madewithlovetsxcomponent",
-      "target": "pages_index"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "aboutme_aboutmecomponent",
-      "_tgt": "external_bambu",
-      "source": "aboutme_aboutmecomponent",
-      "target": "external_bambu"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "aboutme_aboutmecomponent",
-      "_tgt": "external_gojek",
-      "source": "aboutme_aboutmecomponent",
-      "target": "external_gojek"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "aboutme_aboutmecomponent",
-      "_tgt": "external_youtrip",
-      "source": "aboutme_aboutmecomponent",
-      "target": "external_youtrip"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": null,
-      "weight": 0.95,
-      "_src": "aboutme_aboutmecomponent",
-      "_tgt": "concept_personal_bio",
-      "source": "aboutme_aboutmecomponent",
-      "target": "concept_personal_bio"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "pages_index",
-      "_tgt": "aboutme_aboutmecomponent",
-      "source": "aboutme_aboutmecomponent",
-      "target": "pages_index"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
-      "weight": 0.85,
-      "_src": "concept_personal_bio",
-      "_tgt": "pages_index",
-      "source": "concept_personal_bio",
-      "target": "pages_index"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "apps/website/components/Icons/Sun/Sun.tsx",
-      "source_location": null,
-      "weight": 0.8,
-      "_src": "icons_sun",
-      "_tgt": "concept_dark_mode",
-      "source": "icons_sun",
-      "target": "concept_dark_mode"
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_components_aboutme_aboutme_tsx",
+      "_tgt": "aboutme_aboutme",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_components_aboutme_aboutme_tsx",
+      "target": "aboutme_aboutme",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -1998,18 +1631,6 @@
       "target": "icons_linkedin"
     },
     {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "apps/website/components/Icons/Moon/Moon.tsx",
-      "source_location": null,
-      "weight": 0.8,
-      "_src": "icons_moon",
-      "_tgt": "concept_dark_mode",
-      "source": "icons_moon",
-      "target": "concept_dark_mode"
-    },
-    {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -2046,6 +1667,18 @@
       "target": "socials_socialscomponent"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/Skills/Skills.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_components_skills_skills_tsx",
+      "_tgt": "skills_skills",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_components_skills_skills_tsx",
+      "target": "skills_skills",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -2056,18 +1689,6 @@
       "_tgt": "socials_socialscomponent",
       "source": "socials_socialscomponent",
       "target": "myprofilegreeting_myprofilegreetingcomponent"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "pages_index",
-      "_tgt": "socials_socialscomponent",
-      "source": "socials_socialscomponent",
-      "target": "pages_index"
     },
     {
       "relation": "conceptually_related_to",
@@ -2082,52 +1703,28 @@
       "target": "concept_singapore_location"
     },
     {
-      "relation": "calls",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/index.tsx",
-      "source_location": null,
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
+      "source_location": "L23",
       "weight": 1.0,
-      "_src": "pages_index",
-      "_tgt": "myprofilegreeting_myprofilegreetingcomponent",
-      "source": "myprofilegreeting_myprofilegreetingcomponent",
-      "target": "pages_index"
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_pages_index_tsx",
+      "_tgt": "index_index",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_pages_index_tsx",
+      "target": "index_index",
+      "confidence_score": 1.0
     },
     {
-      "relation": "conceptually_related_to",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/_document.tsx",
-      "source_location": null,
+      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/_document.tsx",
+      "source_location": "L4",
       "weight": 1.0,
-      "_src": "pages_document",
-      "_tgt": "concept_gtm_integration",
-      "source": "pages_document",
-      "target": "concept_gtm_integration"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/_app.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "pages_app",
-      "_tgt": "concept_vercel_analytics",
-      "source": "pages_app",
-      "target": "concept_vercel_analytics"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "apps/website/pages/_app.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "pages_app",
-      "_tgt": "concept_dark_mode",
-      "source": "pages_app",
-      "target": "concept_dark_mode"
+      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_pages_document_tsx",
+      "_tgt": "document_document",
+      "source": "users_matiushariman_coding_matiushariman_com_apps_website_pages_document_tsx",
+      "target": "document_document",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
