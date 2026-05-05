@@ -1,12 +1,12 @@
 # Graph Report - /Users/matiushariman/Coding/matiushariman.com  (2026-05-05)
 
 ## Corpus Check
-- 31 files · ~136,760 words
+- 33 files · ~137,085 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 99 nodes · 83 edges · 32 communities detected
-- Extraction: 65% EXTRACTED · 35% INFERRED · 0% AMBIGUOUS · INFERRED: 29 edges (avg confidence: 0.85)
+- 104 nodes · 87 edges · 33 communities detected
+- Extraction: 66% EXTRACTED · 34% INFERRED · 0% AMBIGUOUS · INFERRED: 30 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -42,6 +42,7 @@
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
+- [[_COMMUNITY_Community 32|Community 32]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `matiushariman.com` - 9 edges
@@ -103,8 +104,8 @@ Cohesion: 0.25
 Nodes (9): SocialLink Component, classcat Utility, URL Constants, Github Icon Component, Heart Icon Component, Linkedin Icon Component, MapPin Icon Component, MadeWithLove Component (+1 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.4
-Nodes (2): useThemeContext(), ThemeSwitch()
+Cohesion: 0.29
+Nodes (3): ThemeSelectors(), useThemeContext(), ThemeSwitch()
 
 ### Community 6 - "Community 6"
 Cohesion: 0.4
@@ -144,69 +145,73 @@ Nodes (0):
 
 ### Community 15 - "Community 15"
 Cohesion: 1.0
-Nodes (2): Favicon 16x16, Favicon 32x32
+Nodes (0): 
 
 ### Community 16 - "Community 16"
 Cohesion: 1.0
-Nodes (2): Android Chrome Icon 192x192, Android Chrome Icon 512x512
+Nodes (0): 
 
 ### Community 17 - "Community 17"
 Cohesion: 1.0
-Nodes (1): Prettier Config
+Nodes (2): Favicon 16x16, Favicon 32x32
 
 ### Community 18 - "Community 18"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (2): Android Chrome Icon 192x192, Android Chrome Icon 512x512
 
 ### Community 19 - "Community 19"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Prettier Config
 
 ### Community 20 - "Community 20"
 Cohesion: 1.0
-Nodes (1): SVG Module Declaration
+Nodes (0): 
 
 ### Community 21 - "Community 21"
 Cohesion: 1.0
-Nodes (1): URL Constants
+Nodes (0): 
 
 ### Community 22 - "Community 22"
 Cohesion: 1.0
-Nodes (1): GOJEK_URL Constant
+Nodes (1): SVG Module Declaration
 
 ### Community 23 - "Community 23"
 Cohesion: 1.0
-Nodes (1): BAMBU_URL Constant
+Nodes (1): URL Constants
 
 ### Community 24 - "Community 24"
 Cohesion: 1.0
-Nodes (1): YOUTRIP_URL Constant
+Nodes (1): GOJEK_URL Constant
 
 ### Community 25 - "Community 25"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): BAMBU_URL Constant
 
 ### Community 26 - "Community 26"
 Cohesion: 1.0
-Nodes (1): Sun Icon Component
+Nodes (1): YOUTRIP_URL Constant
 
 ### Community 27 - "Community 27"
 Cohesion: 1.0
-Nodes (1): Moon Icon Component
+Nodes (0): 
 
 ### Community 28 - "Community 28"
 Cohesion: 1.0
-Nodes (1): CompanyImage Component
+Nodes (1): Sun Icon Component
 
 ### Community 29 - "Community 29"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Moon Icon Component
 
 ### Community 30 - "Community 30"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): CompanyImage Component
 
 ### Community 31 - "Community 31"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 32 - "Community 32"
 Cohesion: 1.0
 Nodes (1): Apple Touch Icon
 
@@ -219,56 +224,58 @@ Nodes (1): Apple Touch Icon
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 11`** (2 nodes): `AboutMe()`, `AboutMe.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 12`** (2 nodes): `Skills()`, `Skills.tsx`
+- **Thin community `Community 12`** (2 nodes): `NavigationTabs()`, `index.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 13`** (2 nodes): `MyProfileGreeting()`, `MyProfileGreeting.tsx`
+- **Thin community `Community 13`** (2 nodes): `Skills()`, `Skills.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 14`** (2 nodes): `Document()`, `_document.tsx`
+- **Thin community `Community 14`** (2 nodes): `MyProfileGreeting()`, `MyProfileGreeting.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 15`** (2 nodes): `Favicon 16x16`, `Favicon 32x32`
+- **Thin community `Community 15`** (2 nodes): `Index()`, `index.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 16`** (2 nodes): `Android Chrome Icon 192x192`, `Android Chrome Icon 512x512`
+- **Thin community `Community 16`** (2 nodes): `Document()`, `_document.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 17`** (1 nodes): `Prettier Config`
+- **Thin community `Community 17`** (2 nodes): `Favicon 16x16`, `Favicon 32x32`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 18`** (1 nodes): `tailwind.config.js`
+- **Thin community `Community 18`** (2 nodes): `Android Chrome Icon 192x192`, `Android Chrome Icon 512x512`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 19`** (1 nodes): `next-env.d.ts`
+- **Thin community `Community 19`** (1 nodes): `Prettier Config`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 20`** (1 nodes): `SVG Module Declaration`
+- **Thin community `Community 20`** (1 nodes): `tailwind.config.js`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 21`** (1 nodes): `URL Constants`
+- **Thin community `Community 21`** (1 nodes): `next-env.d.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 22`** (1 nodes): `GOJEK_URL Constant`
+- **Thin community `Community 22`** (1 nodes): `SVG Module Declaration`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 23`** (1 nodes): `BAMBU_URL Constant`
+- **Thin community `Community 23`** (1 nodes): `URL Constants`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 24`** (1 nodes): `YOUTRIP_URL Constant`
+- **Thin community `Community 24`** (1 nodes): `GOJEK_URL Constant`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 25`** (1 nodes): `WorkExperience.tsx`
+- **Thin community `Community 25`** (1 nodes): `BAMBU_URL Constant`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 26`** (1 nodes): `Sun Icon Component`
+- **Thin community `Community 26`** (1 nodes): `YOUTRIP_URL Constant`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 27`** (1 nodes): `Moon Icon Component`
+- **Thin community `Community 27`** (1 nodes): `WorkExperience.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 28`** (1 nodes): `CompanyImage Component`
+- **Thin community `Community 28`** (1 nodes): `Sun Icon Component`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 29`** (1 nodes): `index.tsx`
+- **Thin community `Community 29`** (1 nodes): `Moon Icon Component`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 30`** (1 nodes): `_app.tsx`
+- **Thin community `Community 30`** (1 nodes): `CompanyImage Component`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 31`** (1 nodes): `Apple Touch Icon`
+- **Thin community `Community 31`** (1 nodes): `_app.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 32`** (1 nodes): `Apple Touch Icon`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Matius Hariman` connect `Community 0` to `Community 2`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
 - **Why does `About Me Section` connect `Community 2` to `Community 0`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **Why does `Personal Website Screenshot` connect `Community 0` to `Community 2`?**
   _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **Why does `Personal Website Screenshot` connect `Community 0` to `Community 2`?**
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `Frontend Engineer Role` (e.g. with `TypeScript` and `ReactJS`) actually correct?**
   _`Frontend Engineer Role` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `NX Jest Preset Config`, `Prettier Config`, `Root Jest Config` to the rest of the system?**

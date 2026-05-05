@@ -1,66 +1,14 @@
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import AboutMe from '../components/AboutMe/AboutMe';
 import WorkExperience from '../components/WorkExperience/WorkExperience';
 import Skills from '../components/Skills/Skills';
 import Contact from '../components/Contact/Contact';
-import {
-  useThemeContext,
-  Theme,
-} from '../Providers/ThemeProvider/ThemeProvider';
+
 import { GITHUB_PROFILE_URL, LINKEDIN_PROFILE_URL } from '../constants/URL';
-
-const NAV = [
-  { id: 'about', label: 'About' },
-  { id: 'experience', label: 'Experience' },
-  { id: 'skills', label: 'Skills' },
-  { id: 'contact', label: 'Contact' },
-];
-
-const THEMES: { value: Theme; label: string }[] = [
-  { value: 'day', label: 'Day' },
-  { value: 'night', label: 'Night' },
-];
+import ThemeSelectors from '../components/ThemeSelectors';
+import NavigationTabs from '../components/NavigationTabs';
 
 export function Index() {
-  const [activeSection, setActiveSection] = useState('about');
-  const { theme, setTheme } = useThemeContext();
-
-  useEffect(() => {
-    const fadeObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          if (e.isIntersecting) e.target.classList.add('visible');
-        });
-      },
-      { threshold: 0.08 }
-    );
-
-    const navObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((e) => {
-          if (e.isIntersecting) setActiveSection(e.target.id);
-        });
-      },
-      { threshold: 0.4 }
-    );
-
-    document.querySelectorAll('.section').forEach((s) => {
-      fadeObserver.observe(s);
-      navObserver.observe(s);
-    });
-
-    setTimeout(() => {
-      const first = document.querySelector('.section');
-      if (first) first.classList.add('visible');
-    }, 50);
-
-    return () => {
-      fadeObserver.disconnect();
-      navObserver.disconnect();
-    };
-  }, []);
-
   return (
     <div className="flex min-h-screen flex-col md:flex-row">
       <aside className="flex w-full shrink-0 flex-col overflow-y-visible border-b border-[var(--border)] bg-[var(--bg)] px-5 pb-5 pt-7 transition-[border-color,background] duration-[400ms] md:sticky md:top-0 md:h-screen md:w-[280px] md:overflow-y-auto md:border-b-0 md:border-r md:px-8 md:py-12">
@@ -89,31 +37,7 @@ export function Index() {
           </svg>
           Singapore
         </div>
-
-        <nav className="flex flex-row flex-wrap gap-1 md:flex-1 md:flex-col md:flex-nowrap md:gap-0.5">
-          {NAV.map(({ id, label }) => (
-            <a
-              key={id}
-              className={`flex cursor-pointer items-center gap-[10px] rounded-lg px-[10px] py-1.5 text-xs font-medium no-underline transition-[background,color] duration-150 hover:bg-[var(--bg2)] hover:text-[var(--fg)] md:py-2 md:text-[13px] ${
-                activeSection === id
-                  ? 'bg-[var(--bg2)] text-[var(--accent)]'
-                  : 'text-[var(--fg2)]'
-              }`}
-              href={`#${id}`}
-              onClick={() => setActiveSection(id)}
-            >
-              <span
-                className={`h-[5px] w-[5px] shrink-0 rounded-full transition-[background] duration-150 ${
-                  activeSection === id
-                    ? 'bg-[var(--accent)]'
-                    : 'bg-[var(--fg3)]'
-                }`}
-              />
-              {label}
-            </a>
-          ))}
-        </nav>
-
+        <NavigationTabs />
         <div className="mt-4 flex flex-row flex-wrap items-center gap-3 md:mt-8 md:flex-col md:items-start md:gap-4">
           <div className="flex gap-[10px]">
             <a
@@ -151,21 +75,7 @@ export function Index() {
               </svg>
             </a>
           </div>
-          <div className="flex gap-[6px]">
-            {THEMES.map(({ value, label }) => (
-              <button
-                key={value}
-                className={`cursor-pointer rounded-md border px-2.5 py-1 text-[11px] font-semibold transition-[background,color,border-color] duration-150 ${
-                  theme === value
-                    ? 'border-[var(--accent)] bg-[var(--accent)] text-white'
-                    : 'border-[var(--border)] bg-[var(--bg2)] text-[var(--fg3)] hover:border-[var(--fg3)] hover:text-[var(--fg)]'
-                }`}
-                onClick={() => setTheme(value)}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
+          <ThemeSelectors />
         </div>
       </aside>
 

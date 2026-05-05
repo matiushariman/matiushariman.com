@@ -19,7 +19,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
           {({ theme }) => (
             <div
               className="app"
-              data-theme={theme === 'warm' ? undefined : theme}
+              data-theme={theme === 'day' ? undefined : theme}
             >
               <Component {...pageProps} />
               <Analytics />

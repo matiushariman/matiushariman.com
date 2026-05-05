@@ -5,7 +5,7 @@ import {
 import Sun from '../Icons/Sun/Sun';
 import Moon from '../Icons/Moon/Moon';
 
-const CYCLE: Theme[] = ['night', 'warm', 'slate'];
+const CYCLE: Theme[] = ['night', 'day'];
 
 export function ThemeSwitch() {
   const { theme, setTheme } = useThemeContext();

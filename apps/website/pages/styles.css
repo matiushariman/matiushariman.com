@@ -10,11 +10,11 @@
   --fg: #1a1814;
   --fg2: #6b6760;
   --fg3: #9e9b97;
-  --accent: #e05c2a;
-  --accent2: #d4a847;
+  --accent: #007A33;
+  --accent2: #38bdf8;
   --border: rgba(0,0,0,0.08);
   --sidebar-w: 280px;
-  --font: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font: 'Montserrat', system-ui, sans-serif;
 }
 
 [data-theme="day"] {
