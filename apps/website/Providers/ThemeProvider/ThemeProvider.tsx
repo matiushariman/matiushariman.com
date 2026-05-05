@@ -7,7 +7,7 @@ import {
   useContext,
 } from 'react';
 
-export type Theme = 'warm' | 'slate' | 'night';
+export type Theme = 'day' | 'night';
 
 export interface ThemeContextProps {
   theme: Theme;
@@ -27,7 +27,7 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
 
   useEffect(() => {
     const stored = localStorage.getItem('theme') as Theme | null;
-    if (stored && ['warm', 'slate', 'night'].includes(stored)) {
+    if (stored && ['day', 'night'].includes(stored)) {
       setTheme(stored);
     }
   }, []);

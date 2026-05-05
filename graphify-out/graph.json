@@ -505,7 +505,7 @@
       "label": "AboutMe()",
       "file_type": "code",
       "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": "L8",
+      "source_location": "L11",
       "id": "aboutme_aboutme",
       "community": 11,
       "norm_label": "aboutme()"
@@ -669,17 +669,8 @@
       "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
       "source_location": "L1",
       "id": "users_matiushariman_coding_matiushariman_com_apps_website_pages_index_tsx",
-      "community": 5,
+      "community": 29,
       "norm_label": "index.tsx"
-    },
-    {
-      "label": "Index()",
-      "file_type": "code",
-      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
-      "source_location": "L26",
-      "id": "index_index",
-      "community": 5,
-      "norm_label": "index()"
     },
     {
       "label": "_document.tsx",
@@ -705,7 +696,7 @@
       "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/_app.tsx",
       "source_location": "L1",
       "id": "users_matiushariman_coding_matiushariman_com_apps_website_pages_app_tsx",
-      "community": 29,
+      "community": 30,
       "norm_label": "_app.tsx"
     },
     {
@@ -1380,7 +1371,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 31,
       "norm_label": "apple touch icon",
       "id": "apple_touch_icon_asset"
     }
@@ -1507,18 +1498,6 @@
       "target": "themeswitch_themeswitch"
     },
     {
-      "relation": "calls",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_src": "themeprovider_usethemecontext",
-      "_tgt": "index_index",
-      "source": "themeprovider_usethemecontext",
-      "target": "index_index"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/ThemeSwitch/ThemeSwitch.tsx",
@@ -1570,7 +1549,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/components/AboutMe/AboutMe.tsx",
-      "source_location": "L8",
+      "source_location": "L11",
       "weight": 1.0,
       "_src": "users_matiushariman_coding_matiushariman_com_apps_website_components_aboutme_aboutme_tsx",
       "_tgt": "aboutme_aboutme",
@@ -1672,18 +1651,6 @@
       "_tgt": "myprofilegreeting_myprofilegreeting",
       "source": "users_matiushariman_coding_matiushariman_com_apps_website_components_myprofilegreeting_myprofilegreeting_tsx",
       "target": "myprofilegreeting_myprofilegreeting",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "/Users/matiushariman/Coding/matiushariman.com/apps/website/pages/index.tsx",
-      "source_location": "L26",
-      "weight": 1.0,
-      "_src": "users_matiushariman_coding_matiushariman_com_apps_website_pages_index_tsx",
-      "_tgt": "index_index",
-      "source": "users_matiushariman_coding_matiushariman_com_apps_website_pages_index_tsx",
-      "target": "index_index",
       "confidence_score": 1.0
     },
     {

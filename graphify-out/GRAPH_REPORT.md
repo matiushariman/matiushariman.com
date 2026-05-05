@@ -1,12 +1,12 @@
-# Graph Report - /Users/matiushariman/Coding/matiushariman.com  (2026-04-30)
+# Graph Report - /Users/matiushariman/Coding/matiushariman.com  (2026-05-05)
 
 ## Corpus Check
-- 31 files · ~133,033 words
+- 31 files · ~136,760 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 100 nodes · 85 edges · 31 communities detected
-- Extraction: 65% EXTRACTED · 35% INFERRED · 0% AMBIGUOUS · INFERRED: 30 edges (avg confidence: 0.85)
+- 99 nodes · 83 edges · 32 communities detected
+- Extraction: 65% EXTRACTED · 35% INFERRED · 0% AMBIGUOUS · INFERRED: 29 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -41,6 +41,7 @@
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `matiushariman.com` - 9 edges
@@ -102,8 +103,8 @@ Cohesion: 0.25
 Nodes (9): SocialLink Component, classcat Utility, URL Constants, Github Icon Component, Heart Icon Component, Linkedin Icon Component, MapPin Icon Component, MadeWithLove Component (+1 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.29
-Nodes (3): Index(), useThemeContext(), ThemeSwitch()
+Cohesion: 0.4
+Nodes (2): useThemeContext(), ThemeSwitch()
 
 ### Community 6 - "Community 6"
 Cohesion: 0.4
@@ -203,6 +204,10 @@ Nodes (0):
 
 ### Community 30 - "Community 30"
 Cohesion: 1.0
+Nodes (0): 
+
+### Community 31 - "Community 31"
+Cohesion: 1.0
 Nodes (1): Apple Touch Icon
 
 ## Knowledge Gaps
@@ -248,9 +253,11 @@ Nodes (1): Apple Touch Icon
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 28`** (1 nodes): `CompanyImage Component`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 29`** (1 nodes): `_app.tsx`
+- **Thin community `Community 29`** (1 nodes): `index.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 30`** (1 nodes): `Apple Touch Icon`
+- **Thin community `Community 30`** (1 nodes): `_app.tsx`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 31`** (1 nodes): `Apple Touch Icon`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions

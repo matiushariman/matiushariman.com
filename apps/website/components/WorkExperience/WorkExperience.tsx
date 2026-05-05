@@ -11,7 +11,7 @@ const WORK = [
     period: 'Oct 2023 — Present',
     tag: null,
     bullets: [
-      'Migrated YouBiz’s legacy web codebase to TypeScript, improving developer experience (DX) and code maintainability, which enabled smoother scaling of the platform.',
+      "Migrated YouBiz's legacy web codebase to TypeScript, improving developer experience (DX) and code maintainability, which enabled smoother scaling of the platform.",
       'Implemented a standardized testing strategy (BDD) and automated pull-request workflows, increasing code reliability and reducing review overhead across YouTrip and YouBiz.',
       'Reduced customer-facing web application bundle size by 27%, significantly improving loading speed and performance.',
       'Optimized web application CI/CD process, reducing build and deployment times by 75% and enabling 4× faster delivery.',
@@ -65,11 +65,16 @@ const WORK = [
 export function WorkExperience() {
   return (
     <>
-      <div className="section-label">Where I&apos;ve worked</div>
-      <div className="exp-list">
+      <div className="mb-6 text-[10.5px] font-semibold uppercase tracking-[0.12em] text-[var(--accent)]">
+        Where I&apos;ve worked
+      </div>
+      <div className="flex flex-col">
         {WORK.map((work, i) => (
-          <div className="exp-item" key={i}>
-            <div className="exp-logo">
+          <div
+            key={i}
+            className="grid grid-cols-[40px_1fr] gap-[14px] border-b border-[var(--border)] py-7 transition-[border-color] duration-[400ms] first:pt-0 last:border-b-0 md:grid-cols-[56px_1fr] md:gap-5"
+          >
+            <div className="relative mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-[10px] border border-[var(--border)] bg-[var(--bg2)] transition-[background] duration-[400ms] md:h-10 md:w-10">
               <Image
                 src={work.src}
                 alt={work.alt}
@@ -78,22 +83,35 @@ export function WorkExperience() {
               />
             </div>
             <div>
-              <div className="exp-header">
+              <div className="mb-0.5 flex items-start justify-between gap-3">
                 <a
-                  className="exp-company"
+                  className="text-[15px] font-bold text-[var(--fg)] no-underline transition-colors duration-150 hover:text-[var(--accent)]"
                   href={work.companyUrl}
                   target="_blank"
                   rel="noreferrer"
                 >
                   {work.company}
                 </a>
-                <span className="exp-period">{work.period}</span>
+                <span className="shrink-0 whitespace-nowrap pt-0.5 text-[11.5px] text-[var(--fg3)]">
+                  {work.period}
+                </span>
               </div>
-              <div className="exp-role">{work.role}</div>
-              {work.tag && <span className="exp-tag">{work.tag}</span>}
-              <ul className="exp-bullets">
+              <div className="mb-3 text-[13px] text-[var(--fg2)]">
+                {work.role}
+              </div>
+              {work.tag && (
+                <span className="mb-3 inline-block rounded-[20px] border border-[var(--border)] bg-[var(--bg2)] px-2 py-0.5 text-[10.5px] font-medium text-[var(--fg3)]">
+                  {work.tag}
+                </span>
+              )}
+              <ul className="flex list-none flex-col gap-[6px]">
                 {work.bullets.map((b, j) => (
-                  <li key={j}>{b}</li>
+                  <li
+                    key={j}
+                    className="relative pl-4 text-[13.5px] leading-[1.6] text-[var(--fg2)] before:absolute before:left-0 before:top-[9px] before:h-1 before:w-1 before:rounded-full before:bg-[var(--fg3)] before:content-['']"
+                  >
+                    {b}
+                  </li>
                 ))}
               </ul>
             </div>
