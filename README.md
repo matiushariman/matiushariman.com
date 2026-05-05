@@ -8,8 +8,6 @@
 
 Second iteration of my personal website built with Next.js 14 and TailwindCSS. Features a custom theme system, responsive two-panel layout, and smooth scroll animations. Deployed on Vercel at [matiushariman.com](https://www.matiushariman.com).
 
-[![demo](assets/images/website-screenshot.png)](https://www.matiushariman.com)
-
 ## Tech Stack
 
 | Tool | Version |

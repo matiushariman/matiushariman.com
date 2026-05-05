@@ -8,7 +8,7 @@ const NAV = [
 ];
 
 export default function NavigationTabs() {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState(NAV[0].id);
 
   useEffect(() => {
     const fadeObserver = new IntersectionObserver(
@@ -38,6 +38,10 @@ export default function NavigationTabs() {
       const first = document.querySelector('.section');
       if (first) first.classList.add('visible');
     }, 50);
+
+    window.scrollTo({
+      top: 0,
+    });
 
     return () => {
       fadeObserver.disconnect();

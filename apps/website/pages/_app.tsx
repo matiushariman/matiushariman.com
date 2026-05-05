@@ -12,15 +12,12 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Matius Hariman</title>
+        <title>matiushariman.com</title>
       </Head>
       <ThemeProvider>
         <ThemeContext.Consumer>
           {({ theme }) => (
-            <div
-              className="app"
-              data-theme={theme === 'day' ? undefined : theme}
-            >
+            <div className="app" data-theme={theme}>
               <Component {...pageProps} />
               <Analytics />
               <SpeedInsights />

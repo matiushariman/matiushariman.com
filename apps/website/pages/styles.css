@@ -5,24 +5,16 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #faf9f7;
-  --bg2: #f2f0ec;
-  --fg: #1a1814;
-  --fg2: #6b6760;
-  --fg3: #9e9b97;
-  --accent: #007A33;
-  --accent2: #38bdf8;
-  --border: rgba(0,0,0,0.08);
   --sidebar-w: 280px;
   --font: 'Montserrat', system-ui, sans-serif;
 }
 
 [data-theme="day"] {
-  --bg: #f4f6f9;
-  --bg2: #e8ecf2;
-  --fg: #0f1620;
-  --fg2: #5a6475;
-  --fg3: #99a3b0;
+  --bg: #F5F1EB;
+  --bg2: #F4E6D8;
+  --fg: #3B2F2F;
+  --fg2: #4A3A33;
+  --fg3: #3B2F2F;
   --accent: #007A33;
   --accent2: #38bdf8;
   --border: rgba(0,0,0,0.07);

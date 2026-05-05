@@ -2,8 +2,7 @@ import {
   createContext,
   useState,
   useMemo,
-  useEffect,
-  ReactNode,
+  type ReactNode,
   useContext,
 } from 'react';
 
@@ -22,21 +21,21 @@ export interface ThemeProviderProps {
   children?: ReactNode;
 }
 
+export const THEMES: { value: Theme; label: string }[] = [
+  { value: 'day', label: 'Day' },
+  { value: 'night', label: 'Night' },
+];
+
 export function ThemeProvider({ children }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>('night');
+  const [theme, setTheme] = useState<Theme>(THEMES[1].value);
 
-  useEffect(() => {
-    const stored = localStorage.getItem('theme') as Theme | null;
-    if (stored && ['day', 'night'].includes(stored)) {
-      setTheme(stored);
-    }
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem('theme', theme);
-  }, [theme]);
-
-  const value = useMemo(() => ({ theme, setTheme }), [theme]);
+  const value: ThemeContextProps = useMemo(
+    () => ({
+      theme,
+      setTheme,
+    }),
+    [theme]
+  );
 
   return (
     <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>

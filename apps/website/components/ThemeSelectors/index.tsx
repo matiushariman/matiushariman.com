@@ -1,12 +1,8 @@
 import {
   Theme,
   useThemeContext,
+  THEMES,
 } from '../../Providers/ThemeProvider/ThemeProvider';
-
-const THEMES: { value: Theme; label: string }[] = [
-  { value: 'day', label: 'Day' },
-  { value: 'night', label: 'Night' },
-];
 
 export default function ThemeSelectors() {
   const { theme, setTheme } = useThemeContext();
