@@ -1,6 +1,8 @@
-@tailwind components;
-@tailwind base;
-@tailwind utilities;
+@import "tailwindcss";
+
+@source "../pages/**/*.{ts,tsx}";
+@source "../components/**/*.{ts,tsx}";
+@source "../Providers/**/*.{ts,tsx}";
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
