@@ -1,4 +1,11 @@
-const SKILL_GROUPS = [
+import SectionTitle from '../SectionTitle/SectionTitle';
+
+interface SkillGroup {
+  title: string;
+  tags: string[];
+}
+
+const SKILL_GROUPS: SkillGroup[] = [
   {
     title: 'Frontend',
     tags: [
@@ -27,9 +34,7 @@ const SKILL_GROUPS = [
 export function Skills() {
   return (
     <>
-      <div className="mb-6 text-[10.5px] font-semibold uppercase tracking-[0.12em] text-[var(--accent)]">
-        Skills &amp; Tech
-      </div>
+      <SectionTitle>Skills &amp; Tech</SectionTitle>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {SKILL_GROUPS.map((group) => (
           <div

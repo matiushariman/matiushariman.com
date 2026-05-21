@@ -1,7 +1,19 @@
 import Image from 'next/image';
 import { GOJEK_URL, BAMBU_URL, YOUTRIP_URL } from '../../constants/URL';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
-const WORK = [
+interface WorkEntry {
+  src: string;
+  alt: string;
+  company: string;
+  companyUrl: string;
+  role: string;
+  period: string;
+  tag: string | null;
+  bullets: string[];
+}
+
+const WORK: WorkEntry[] = [
   {
     src: '/youtrip.png',
     alt: 'YouTrip logo',
@@ -65,9 +77,7 @@ const WORK = [
 export function WorkExperience() {
   return (
     <>
-      <div className="mb-6 text-[10.5px] font-semibold uppercase tracking-[0.12em] text-[var(--accent)]">
-        Where I&apos;ve worked
-      </div>
+      <SectionTitle>Where I&apos;ve worked</SectionTitle>
       <div className="flex flex-col">
         {WORK.map((work, i) => (
           <div
@@ -79,6 +89,7 @@ export function WorkExperience() {
                 src={work.src}
                 alt={work.alt}
                 fill
+                sizes="56px"
                 style={{ objectFit: 'contain' }}
               />
             </div>

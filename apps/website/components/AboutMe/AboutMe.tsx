@@ -4,6 +4,7 @@ import {
   BAMBU_GO_NEWS_URL,
   YOUTRIP_URL,
 } from '../../constants/URL';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 const linkClass =
   'text-[var(--fg)] underline decoration-[var(--border)] underline-offset-[3px] transition-[text-decoration-color] duration-150 hover:decoration-[var(--accent)]';
@@ -11,9 +12,7 @@ const linkClass =
 export function AboutMe() {
   return (
     <>
-      <div className="mb-6 text-[10.5px] font-semibold uppercase tracking-[0.12em] text-[var(--accent)]">
-        About
-      </div>
+      <SectionTitle>About</SectionTitle>
       <h1 className="mb-7 text-[24px] font-bold leading-[1.15] tracking-[-0.03em] text-[var(--fg)] md:text-[36px]">
         Building great products,
         <br />

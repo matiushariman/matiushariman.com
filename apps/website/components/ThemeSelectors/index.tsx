@@ -18,6 +18,8 @@ export default function ThemeSelectors() {
               : 'border-[var(--border)] bg-[var(--bg2)] text-[var(--fg3)] hover:border-[var(--fg3)] hover:text-[var(--fg)]'
           }`}
           onClick={() => setTheme(value)}
+          aria-label={`Switch to ${label} theme`}
+          aria-pressed={theme === value}
         >
           {label}
         </button>

@@ -66,6 +66,7 @@ export default function NavigationTabs() {
             className={`h-[5px] w-[5px] shrink-0 rounded-full transition-[background] duration-150 ${
               activeSection === id ? 'bg-[var(--accent)]' : 'bg-[var(--fg3)]'
             }`}
+            aria-hidden="true"
           />
           {label}
         </a>
