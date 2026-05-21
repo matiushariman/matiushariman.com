@@ -4,7 +4,6 @@
 @source "../components/**/*.{ts,tsx}";
 @source "../Providers/**/*.{ts,tsx}";
 
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
   --sidebar-w: 280px;
