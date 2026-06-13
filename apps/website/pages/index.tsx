@@ -28,8 +28,8 @@ export function Index() {
           Matius
         </div>
         <div className="mb-1.5 text-[12.5px] font-normal leading-[1.5] text-[var(--fg2)]">
-          Senior Frontend Engineer
-          <br />& Boston Celtics Fan 🍀
+          Ships clean code.
+          <br />Suffers good basketball.
         </div>
         <div className="mb-5 flex items-center gap-1 text-xs text-[var(--fg3)] md:mb-8">
           <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
@@ -38,7 +38,7 @@ export function Index() {
               fill="currentColor"
             />
           </svg>
-          Singapore
+          Little Red Dot 🇸🇬
         </div>
         <NavigationTabs />
         <div className="mt-4 flex flex-row flex-wrap items-center gap-3 md:mt-8 md:flex-col md:items-start md:gap-4">

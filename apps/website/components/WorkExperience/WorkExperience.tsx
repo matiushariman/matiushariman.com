@@ -26,12 +26,12 @@ const WORK: WorkEntry[] = [
     tag: null,
     roles: [
       {
-        role: 'Staff Software Engineer, Web',
+        role: 'Staff Software Engineer',
         period: 'Jun 2026 — Present',
         bullets: ['Cooking something great...'],
       },
       {
-        role: 'Senior Software Engineer, Web',
+        role: 'Senior Software Engineer',
         period: 'Oct 2023 — Jun 2026',
         bullets: [
           "Migrated YouBiz's legacy web codebase to TypeScript, improving developer experience (DX) and code maintainability, which enabled smoother scaling of the platform.",
