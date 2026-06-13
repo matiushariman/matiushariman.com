@@ -12,7 +12,7 @@ const SKILL_GROUPS: SkillGroup[] = [
       'React',
       'TypeScript',
       'Next.js',
-      'Vue.js',
+      'Angular',
       'CSS / SCSS',
       'Tailwind',
     ],
@@ -23,7 +23,11 @@ const SKILL_GROUPS: SkillGroup[] = [
   },
   {
     title: 'Tooling & Infra',
-    tags: ['CI/CD', 'Docker', 'Datadog', 'GitHub Actions', 'Vite', 'NX'],
+    tags: ['CI/CD', 'Docker', 'GitHub Actions', 'Vite', 'NX', 'Buildkite'],
+  },
+  {
+    title: 'AI & Tooling',
+    tags: ['Prompt Engineering', 'MCP', 'AI Agents', 'Claude Code'],
   },
   {
     title: 'Design & Collab',
