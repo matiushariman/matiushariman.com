@@ -86,7 +86,7 @@ export function AboutMe() {
           The Story Continues
         </div>
         <p className="text-[15px] leading-[1.75] text-[var(--fg2)]">
-          Today, I&apos;m a Senior Software Engineer at{' '}
+          Today, I&apos;m a Staff Software Engineer at{' '}
           <a
             href={YOUTRIP_URL}
             target="_blank"
