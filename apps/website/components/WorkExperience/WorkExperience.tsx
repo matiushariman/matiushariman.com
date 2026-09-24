@@ -27,17 +27,21 @@ const WORK: WorkEntry[] = [
     roles: [
       {
         role: 'Staff Software Engineer',
-        period: 'Jun 2026 — Present',
-        bullets: ['Cooking something great...'],
+        period: 'Apr 2026 — Present',
+        bullets: [
+          'Partner with backend engineers on technical solutioning, including API schema design, as part of cross-functional planning for new features.',
+          'Diagnosed and modified backend logic in Golang API endpoints, including bug fixes and response-shape changes, to support production stability and new feature requirements.',
+          'Work closely with QA to establish an automated testing suite, strengthening release reliability across the platform.',
+          'Built a Claude Code plugin adopted by the team at YouTrip to standardize AI-assisted output, enforcing coding standards, architecture patterns, and validation of AI-generated code.',
+        ],
       },
       {
         role: 'Senior Software Engineer',
-        period: 'Oct 2023 — Jun 2026',
+        period: 'Oct 2023 — Apr 2026',
         bullets: [
           "Migrated YouBiz's legacy web codebase to TypeScript, improving developer experience (DX) and code maintainability, which enabled smoother scaling of the platform.",
-          'Implemented a standardized testing strategy (BDD) and automated pull-request workflows, increasing code reliability and reducing review overhead across YouTrip and YouBiz.',
-          'Reduced customer-facing web application bundle size by 27%, significantly improving loading speed and performance.',
-          'Optimized web application CI/CD process, reducing build and deployment times by 75% and enabling 4× faster delivery.',
+          'Optimized the CI/CD pipeline end to end, including shifting test execution to affected-file-only runs (~59% faster tests) and reducing overall build and deployment times by 75%, enabling 4× faster delivery.',
+          "Led the fix for the top source of server errors on the B2B platform's authentication flow, cutting weekly HTTP 500 errors by ~87% (~1,900 → ~240).",
         ],
       },
     ],
@@ -53,8 +57,8 @@ const WORK: WorkEntry[] = [
         role: 'Lead Software Engineer (Frontend)',
         period: 'Jan 2023 — Sep 2023',
         bullets: [
-          "Led the adoption of component-driven development using Storybook and Chromatic, enabling creation of BAMBU's in-house design system and delivering an accessible next-gen frontend experience.",
-          'Established engineering best practices—including trunk-based development with feature flags, CODEOWNERS for automated PR assignment, and ADRs—to enhance agility, code quality, and long-term maintainability across a monorepo with 20+ packages.',
+          "Led the adoption of component-driven development using Storybook and Chromatic, enabling the creation of BAMBU's in-house design system and delivering an accessible next-gen frontend experience.",
+          'Established engineering best practices, including trunk-based development with feature flags, CODEOWNERS for automated PR assignment, and Architecture Decision Records (ADR), to enhance agility, code quality, and long-term maintainability across a monorepo with 20+ packages.',
           'Collaborated with designers, product owners, and C-suite stakeholders to define requirements and deliver a unified, consistent user experience across applications.',
         ],
       },
@@ -72,7 +76,7 @@ const WORK: WorkEntry[] = [
         period: 'Aug 2022 — Nov 2022',
         bullets: [
           'Delivered a Single-SPA–based micro-frontend application as part of a 3-person frontend team, consistently completing sprint commitments (100% burndown), which improved delivery predictability and stakeholder confidence.',
-          'Elevated application quality by driving the adoption of BDD with Playwright and increasing test coverage to 90%—the highest among Moka Backoffice micro-frontend applications—resulting in more reliable releases.',
+          'Elevated application quality by driving the adoption of behavior-driven development (BDD) with Playwright and increasing test coverage to 90%, the highest among Moka Backoffice micro-frontend applications, resulting in more reliable releases.',
           'Collaborated within the Commerce Enablement FE Guild to enhance frontend workflows across product teams, introducing React Testing Library best practices that improved test confidence and reduced false positives.',
         ],
       },
@@ -86,13 +90,20 @@ const WORK: WorkEntry[] = [
     tag: 'Closed in 2023',
     roles: [
       {
-        role: 'Frontend Engineer',
-        period: 'Dec 2016 — Jul 2022',
+        role: 'Senior Frontend Engineer',
+        period: 'Jan 2021 — Jul 2022',
         bullets: [
-          "Led a 3-person frontend team to develop BAMBU GO 2.0—the world's first robo-advisory SaaS platform using ReactJS and Redux—winning \"Best of Show\" at 2021 FinovateFall in New York.",
-          'Boosted test reliability by introducing integration (@testing-library/react, MSW) and E2E (Cypress) testing, achieving 70%+ coverage while eliminating 50% of redundant tests.',
-          'Accelerated product delivery by spearheading frontend development for multiple live projects, POCs, and MVPs, driving business deals and securing Series A/B funding.',
-          'Streamlined deployment by replacing manual releases with automated CI/CD, cutting errors and accelerating release cycles.',
+          "Led a 3-person frontend team to develop BAMBU GO 2.0, the world's first robo-advisory SaaS platform using ReactJS and Redux, winning \"Best of Show\" at 2021 FinovateFall in New York.",
+          'Enhanced code quality and security by integrating SonarCloud into the CI pipeline, raising legacy projects from grade B to A and reducing vulnerabilities to single digits.',
+        ],
+      },
+      {
+        role: 'Frontend Engineer',
+        period: 'Jan 2017 — Dec 2020',
+        bullets: [
+          'Accelerated product delivery by spearheading frontend development for multiple live projects, POCs, and MVPs (AngularJS, ReactJS), driving business deals and securing Series A/B funding.',
+          'Streamlined deployment by replacing manual releases with automated Bitbucket Pipeline CI/CD, cutting errors and accelerating release cycles.',
+          'Scaled engineering team from 3 to 15+ (2017–2020) by leading technical interviews, improving hiring quality and strengthening team capabilities.',
         ],
       },
     ],
